@@ -1,6 +1,9 @@
 const got = require('got');
 var cheerio = require('cheerio');
 
+const wiki = 'https://www.ssbwiki.com/';
+const game = '_(SSBU)';
+
 const targetSection = new RegExp(/play\[edit\]/g);
 const regexLen = 10;
 
@@ -8,9 +11,9 @@ const sectionDefinitionRegex = new RegExp(/.*\[edit\]/g);
 
 let text = "";
 
-async function scrapeWeb() {
+async function scrapeWeb(character) {
 	// Build URL
-	let url = 'https://www.ssbwiki.com/Mario_(SSBU)';
+	let url = wiki + character + game;
 
 	got(url).then(response => {
 		const $ = cheerio.load(response.body);				// Loads HTML from the url
@@ -36,4 +39,4 @@ async function scrapeWeb() {
 	});
 }
 
-scrapeWeb();
+scrapeWeb("Mario");
