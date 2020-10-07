@@ -4,19 +4,25 @@ var cheerio = require('cheerio');
 const wiki = 'https://www.ssbwiki.com/';
 const game = '_(SSBU)';
 
-const targetSectionHeader = new RegExp(/^In competitive play/gm);
-const sectionThatFollowsTarget = new RegExp(/^Notable players/gm);
+let regexesMap = new Map;
+regexesMap.set('In competitive play', {
+	startSection: new RegExp(/^In competitive play/gm),
+	endSection: new RegExp(/^Notable players/gm)
+});
 
-async function scrapeWeb(character) {
+
+async function scrapeWeb(character, targetText) {
 	// Build URL
 	let url = wiki + character + game;
 
-	got(url).then(response => {								// Scrape the webpage indicated at the url
+	got(url).then(response => {									// Scrape the webpage indicated at the url
 		const $ = cheerio.load(response.body);					// Loads HTML from the url
-		let wikiPageText =  $('.mw-parser-output').text();  	// Parses the text content of a particular div
-		let targetSectionBeginIndex = wikiPageText.search(targetSectionHeader); // Finds the start of the "In competitive play section"
-		let targetSectionEndIndex = wikiPageText.search(sectionThatFollowsTarget);
-		let competitiveInformation = wikiPageText.substring(targetSectionBeginIndex, targetSectionEndIndex);
+		let wikiPageText =  $('.mw-parser-output').text();  	// Parses the text content of a particular div, based on its css class
+		// console.log(wikiPageText);							// Shows all the text we scraped. Good for building our regexes.
+		let regexes = regexesMap.get(targetText);
+		let targetSectionStartIndex = wikiPageText.search(regexes.startSection);
+		let targetSectionEndIndex = wikiPageText.search(regexes.endSection);
+		let competitiveInformation = wikiPageText.substring(targetSectionStartIndex, targetSectionEndIndex);
 		console.log(competitiveInformation);
 		return competitiveInformation;
 	}).catch(err => {
@@ -24,4 +30,4 @@ async function scrapeWeb(character) {
 	});
 }
 
-scrapeWeb("Mario");
+scrapeWeb("Peach", 'In competitive play');
