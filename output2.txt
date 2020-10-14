@@ -1,0 +1,1951 @@
+
+
+This article is about Peach's appearance in Super Smash Bros. Ultimate. For the character in other contexts, see Princess Peach.
+
+
+
+Peachin Super Smash Bros. Ultimate
+
+
+
+
+
+Universe
+
+Mario
+
+
+
+
+
+Other Smash Bros. appearances
+
+in Meleein Brawlin SSB4
+
+
+Availability
+
+Unlockable
+
+
+Final Smash
+
+Peach Blossom
+
+
+
+
+
+
+
+
+“
+
+THE super princess. Watch out for her powerful kicks while she's airborne. Using her down special, she picks vegetables and throws them at her opponents. Sometimes she even gets items...like a Bob-omb!
+
+”
+
+
+—Super Smash Blog, Super Smash Bros. Ultimate Official Site
+
+Peach (ピーチ, Peach) is a playable character in Super Smash Bros. Ultimate. Peach was revealed for the game along with the rest of the veterans on June 12th, 2018. However, unlike previous Smash Bros. games since Melee (her first playable appearance in the Super Smash Bros. series), Peach is now an unlockable character rather than being available from the start. She is classified as fighter #13.
+As in SSB4, Samantha Kelly's portrayal of Peach from Brawl was repurposed for Ultimate.
+
+Contents
+
+1 How to unlock
+2 Attributes
+3 Changes from Super Smash Bros. 4
+
+3.1 Aesthetics
+3.2 Attributes
+3.3 Ground attacks
+3.4 Aerial attacks
+3.5 Throws and other attacks
+3.6 Special moves
+
+
+4 Update history
+5 Moveset
+
+5.1 On-screen appearance
+5.2 Taunts
+5.3 Idle poses
+5.4 Victory poses
+
+
+6 In competitive play
+
+6.1 Notable players
+
+6.1.1 Active
+6.1.2 Inactive
+
+
+
+
+7 Classic Mode: No Damsel in Distress
+8 Role in World of Light
+
+8.1 Fighter Battle
+
+
+9 Spirits
+10 In Spirit battles
+
+10.1 As the main opponent
+10.2 As a minion
+10.3 As an ally
+
+
+11 Alternate costumes
+12 Gallery
+
+12.1 Character Showcase Video
+
+
+13 Trivia
+14 References
+
+
+
+How to unlock
+Complete one of the following:
+
+Play VS. matches, with Peach being the 12th character to be unlocked.
+Clear Classic Mode with Fox or any character in his unlock tree, being the third character unlocked after Zero Suit Samus.
+Have Peach join the player's party in World of Light.
+With the exception of the third method, Peach must then be defeated on Princess Peach's Castle.
+
+Attributes
+Peach is a somewhat light character who is quite slow in terms of walking speed and dashing speed, and has an extremely slow falling speed and very low gravity, while her air speed is only average. While this is an unfavorable combination of traits, it is compensated by her unique floating ability and her very high air acceleration.
+Peach's aerial game is one of her greatest strengths. Her floating ability grants her the power to hover at any height she chooses, giving her a distinct advantage in combat. Floating also helps her to control space; floating low to the ground and using retreating aerials makes her difficult to punish, and this greatly helps her own approach as well, because with good spacing, she can attack the opponent's shield with little fear of reprisal. Float can increase her mobility and movement options, allowing her to frustrate her opponents with quick and unpredictable mixups. Additionally, floating aids Peach's off-stage presence when combined with her slow falling speed, despite her low jumps and the high ending lag of her aerial attacks (except for down aerial); not only does it help her cover certain angles when edgeguarding, it can also be used to aid her horizontal recovery or potentially even allow her to go underneath stages such as Battlefield, Final Destination, Smashville or Town and City. Neutral aerial is her fastest aerial with the lowest landing lag, and deals an impressively high amount of damage despite its speed while also possessing a decently long duration; when combined with her ability to float close to the ground, neutral aerial's combination of fast startup, low base knockback and low landing lag makes it an incredibly good combo tool at lower percents that can even lead into itself with enough technical skill, especially after a down tilt, while its damage output and knockback scaling ensures that it still has decent KO potential at higher ones. Her forward aerial is her slowest aerial attack, but it is also her strongest one, and it can be used while floating to "fish" for a kill with relative safety, especially given its disjointed hitbox and fairly low landing lag relative to its strength; however, it possesses a weaker sourspot on her arm. Her back aerial possesses a decent combination of fast startup with good range and power in addition to being her most reliable follow-up from a down throw, and although it suffers from notable ending lag compared to other back aerials, Peach's float and slow falling speed compensate for this. Up aerial hits twice and is impressively disjointed, while the first hit can potentially drag down opponents after a short hop height down aerial for grounded follow-ups; however, its horizontal range compared to Peach's other aerial attacks is somewhat lacking. Finally, her down aerial has the lowest ending lag of all her aerial attacks, and can be used as a potential combo starter at low to middle percents thanks to the final hit's vertical angle.
+Comparatively, her grounded attacks are less effective in direct comparison, but are not without utility. Neutral attack comes out on frame 2, making it not only Peach's fastest attack, but also one of the fastest neutral attacks in the entire game; conversely, it is fairly weak compared to other two-hit jabs. Up tilt has a disjointed hitbox above her and can be used as an anti-air attack. Forward tilt is a potential follow-up from down throw, has decent horizontal and vertical range while being disjointed, and interestingly has a vertical launch angle much like Sheik and Yoshi's forward tilts. Down tilt is her fastest tilt attack, and while it is less disjointed than her other tilts, it possesses decent combo potential; with sufficient technical skill, it is possible to follow up the move with multiple neutral aerials performed from ground-level floats. Dash attack is relatively fast and decently disjointed, with the first hit reliably leading into the second, and it can also serve as a potential KO move at very high percents. She has a decent grab game, as her down throw can be followed up with a back aerial, forward tilt or neutral aerial, forward and back throws can easily setup edgeguards, and back throw can even serve as a KO move at extremely high percents. Peach also has a potent if somewhat situational set of smash attacks, all of them possessing reasonably good range: her forward smash can be angled up or down, giving her access to three different weapons (golf club if unangled, frying pan if angled up, or tennis racket if angled down), each with their own useful properties;  down smash is a multi-hit attack good for catching rolls and edge recovery options; and her up smash is a particularly powerful move when sweetspotted, while also granting intangibility to her head and arms.
+Her special moves have their uses as well. Toad is a counterattack where if either Peach or Toad himself are attacked, the latter will retaliate with spores hitting multiple times; like most other counterattacks, the move can be used as an edgeguarding tool against certain recovery moves with damaging hitboxes, most notably Ike's Aether and Chrom's Soaring Slash. Unlike most other counterattacks, Toad does not scale relative to the strength of the attack countered, while Toad's spores can be curiously be reflected or absorbed, the former of the latter two in particular rendering the move useless against many reflectors, such as Mario's Cape or Fox's aptly-named Reflector. Peach Bomber is a move where Peach lunges forward and strikes with her rear end; it can be used as a horizontal recovery option in addition to her aforementioned floating ability, its travel distance is increased if the move is smash-inputted, and in addition to being decently strong if successfully landed, it is also very difficult to punish out of shield because of how she rebounds after successfully hitting a target, though it suffers from high ending lag if whiffed. Peach Parasol is a serviceable vertical recovery move, and can be used as an out-of-shield option thanks to its fast startup and decent range. It is also fairly difficult to contest from above thanks to its large disjoint above her and lingering hitbox if the parasol is kept open after ascending. Finally, Vegetable serves as her projectile, and as a throwable item, it is quite a versatile one; the move also has a 1/250 chance of spawning a powerful Bob-omb and a 1/166 chance of spawning a shield-shattering Mr. Saturn.
+Despite her strengths, Peach is not without her weaknesses. Faster opponents may be able to overwhelm her before she can begin throwing vegetables or otherwise defend herself. If thrown into the air, she can have difficulty landing, and when combined with her floatiness, this makes her susceptible to juggling and vertical combos. Peach's ability to approach suffers against swordfighters like Shulk and Cloud or zoners like R.O.B. and Samus, as she lacks the agility to get in close before they can hit her. Her recovery, while very good, is also a potential point of failure, as while she can travel a great deal of horizontal distance, she can also be left vulnerable if forced to rely on Peach Parasol and her vertical recovery is average at best (discounting the incredibly dangerous and situational Bob-omb), as well as predictable. Additionally, her vegetables, being item projectiles, can be picked up by opponents and used against her, despite being fairly useful overall.
+Overall, Peach is a technical character that, once mastered, is a major threat to any opponent. Her floating ability, very high air acceleration, and solid aerial attacks give Peach a fantastic air game that allows her to easily outmaneuver her opponents, and initiate devastating set-ups. Peach's specials grant her a disruptive projectile, two good recovery options—one of which has good KO potential—and a counterattack. However, Peach players have to be weary of her slow grounded movement, somewhat light weight, and extreme floatiness by maximizing her floating ability to constantly switch between the ground and the air, and carefully utilize her moveset to avoid being punished for even a simple mistake. Peach's strengths outweigh her weaknesses, and she has received excellent results in tournaments thanks to players such as Samsora, MuteAce, BlazingPasta and Ling Ling, with her representation also being far greater than that of her Echo Fighter, Daisy.
+
+Changes from Super Smash Bros. 4
+Despite her high-tier placement in SSB4, Peach has been greatly buffed overall in the transition to Ultimate.
+As with most characters, Peach's mobility has been improved, aiding her approach and combo game. The new 0.85× damage multiplier for aerial attacks performed in a short hop affects Peach less than other returning veterans, as she can use her float to bypass the multiplier and still attack low to the ground with her aerials. This not only makes them more damaging, but combined with the lower landing lag on her aerials, considerably strengthens her shield pressure.
+Although most of her moves remain largely identical to their SSB4 counterparts, some of them have seen noticeable improvements. Her new down tilt has faster startup, and it benefits from the removal of teching for grounded meteor smashes, making it a consistently powerful combo tool that is also safer to use. Forward smash allows Peach to choose which weapon to use via angling, instead of having to use it repeatedly to cycle weapons, greatly increasing its reliability. Toad is also faster as a counterattack and deals more damage, and Peach Bomber is faster in the air and stronger, improving its recovery and KO potential. Lastly, her Vegetables are faster to both pluck and throw, improving her projectile game.
+Peach has received a few nerfs, however. Her forward aerial, previously one of her most effective KO moves, is weaker and has received a sourspot, making it more difficult to use effectively. Her dash attack and back throw both have reduced knockback as well, and the changes to rage have removed Peach Parasol's infamous ability to one-hit KO opponents by landing only the first hit if Peach is at a high percentage. Finally, she still retains some of her weaknesses from the previous game, such as her overall poor mobility, difficulty landing safely, and her somewhat light weight and extreme floatiness rendering her vulnerable to vertical KOs and juggling, the latter which is exacerbated by the changes to air dodges, as hers are now among the slowest in the game in terms of ending lag.
+Overall, Peach has been considerably improved from her SSB4 incarnation with her superior mobility and combo game, and the changes to Ultimate's mechanics have benefited her more than they have hindered her. Together with her Echo Fighter, Daisy, Peach has achieved excellent results at high levels of competitive play so far thanks to players such as Samsora, MuteAce, and BlazingPasta. Due to her overwhelming advantages and excellent results, Peach is not only considered to be a top-tier character, but also even better than her initial Melee iteration. Balance patches have also noticeably nerfed Peach as well, with the biggest ones coming in update 3.1.0; these updates have only mildly impacted Peach's viability, however.
+
+Aesthetics
+ Due to the aesthetic used in Ultimate, Peach's model features a more subdued color scheme. Her dress retains its design from SSB4, but features a glossy satin texture. Her hair and gloves feature subtle detailing, similar to her design in Brawl.
+ Peach has a new alternate costume—a golden dress. It replaces her Princess Daisy-inspired costume, most likely due to Daisy being a separate character as Peach's Echo Fighter.
+ Peach faces the foreground at an angle, instead of facing directly forward. In addition, her stance, moveset, and animations are mirrored as a result.
+ Like other fighters, Peach is more expressive, having angrier facial expressions during many of her attacks.
+ Double jump and air dodge animation has changed slightly. Additionally, Peach's stun animation is sped up.
+ Peach's dress has independent physics, like in Melee. Her dress also no longer puffs up when floating.
+ As with all veterans, Peach's taunts have been sped up, resulting in two of them being tweaked:
+ Side taunt has been shortened, as she only dances back and forth once instead of three times, though the music notes still appear. Peach's voice has also been slightly sped up.
+ Down taunt has a heart pop up next to her head. She also no longer spins, and winks immediately.
+ Peach's victory poses have been changed:
+ Her left-inputted victory pose is completely new. She twirls once while leaning on her parasol and raises it, while saying "Aw, did I win?". This replaces her right-inputted victory pose from Melee to SSB4 where she swings her arm out and puts it behind her.
+ Her left-inputted victory pose from previous games has been moved to the right button, and has significantly altered appearance: spinning before waving with her right hand, one has her walking towards the screen waving before blows a kiss and continuing to wave with her left hand. She also says "Peachy!", as in her right-inputted pose from Brawl and SSB4.
+ Her up-inputted victory pose has her perform a more elegant twirl before striking the pose.
+Attributes
+ Like all characters, Peach's jumpsquat animation takes 3 frames to complete (down from 5).
+ Peach walks slightly faster (0.86 → 0.924).
+ Peach runs faster (1.4175 → 1.595).
+ Her initial dash is significantly faster (1.5 → 1.826).
+ Peach's traction is much higher (0.068 → 0.111).
+ Peach's air speed is faster (0.95 → 1.029), which also increases her floating speed and distance.
+ Peach's base air acceleration has been increased (0.01 → 0.04), but her additional air acceleration has been reduced (0.1 → 0.08). This increases her total air acceleration (0.11 → 0.12) but gives her less control over her air speed.
+ Peach's falling speed (1.15 → 1.19) and fast falling speed (1.84 → 1.904) are slightly faster.
+ Peach's gravity has been increased (0.068 → 0.07).
+ Forward roll grants less intangibility (frames 4-17 → 4-15).
+ Back roll has more startup with less intangibility (frames 4-17 → 5-16), and more ending lag (FAF 31 → 36).
+ Spot dodge has less ending lag (FAF 28 → 27).
+ Spot dodge grants less intangibility (frames 3-18 → 3-17).
+ Air dodge grants more intangibility (frames 3-28 → 3-30).
+ Air dodge has significantly more ending lag (FAF 34 → 62), being tied with her Echo Fighter for the third slowest air dodge in the game duration-wise, only behind Rosalina and Jigglypuff.
+ The homogenization of fall speeds during vertical knockback improves Peach's survivability, but makes her more susceptible to combos.
+Ground attacks
+Neutral attack:
+ The first hit has altered angles (74°/78° → 361°/180°), allowing it to lock opponents.
+ The first hit transitions slightly faster into the second hit (frame 8 → 7).
+ The second hit launches at a lower angle (361° → 35°) and has different knockback values (30 base/100 scaling → 60/70), making it safer on hit.
+ Both hits have a higher hitlag multiplier (1× → 1.2× (hit 1), 1.8× (hit 2)), giving opponents more time to SDI the first hit and DI the second hit.
+ The first hit has a shorter hitbox duration (frames 2-3 → 2).
+ The second hit's inner hitbox is smaller (4u → 3u).
+ The first hit no longer uses set knockback (20 set/100 scaling → 30/20 base/25/15 scaling), causing it to connect less reliably into the second hit at higher percents without giving it jab cancel setups.
+Up tilt:
+ The stronger and weaker hits have been reversed: the hitbox on the heart is stronger than the hitbox on her shoulders, much like in Brawl.
+Down tilt:
+ Peach has a new down tilt: a sweep kick rather than an arm sweep.
+ It has noticeably less startup (frame 13 → 8), with its total duration reduced as well (FAF 28 → 24). Combined with grounded meteor smashes no longer being techable, this allows it to start combos much more effectively.
+ The hitbox for aerial opponents matches the one for grounded opponents, no longer being shorter and attached to Peach.
+ It no longer grants intangibility.
+ The zero gravity glitch can no longer be performed.
+Dash attack:
+ Dash attack's first hit uses different hitboxes for grounded and aerial opponents, which change in angle (70°/50° → 40°/68° (grounded)/30°/40° (aerial)) and set knockback values (50/70 → 55/40 (grounded)/45/25 (aerial)), and use weight-independent knockback. This allows it to connect better into the second hit.
+ The first hit has gained a shieldstun multiplier of 2.9×, preventing shielding opponents from escaping before the second hit comes out.
+ The second hit's outermost hitbox is slightly larger (4u → 4.5u).
+ The second hit has lower knockback scaling (140 → 130), hindering its KO potential.
+ Hearts appear at the end of the move.
+Forward smash:
+ Forward smash no longer cycles between its three weapons in a set order, instead being determined by which angle the control stick is held into. This greatly improves its reliability, letting Peach freely choose what weapon to use without having to telegraph it. This also allows her to change weapon while charging the move.
+ The golf club's tipper hitbox deals more knockback (60 base/65 scaling → 65/68).
+ The tennis racket deals more damage (13% → 13.5%) and is consistent throughout.
+ The golf club launches at a higher angle (361° → 45°), hindering the sourspots' KO potential.
+ The tennis racket deals less knockback (80/86 base/56/60 scaling → 65/60), hindering its KO potential despite its increased damage and marginally lower launch angle (28° → 27°).
+ The frying pan has less base knockback (70 → 68).
+Down smash:
+ Down smash hits up to seven times instead of five, and deals consistent damage (2%/3% (hits 1-4) → 2% (hits 1-6), 11%-15% → 15% (total)).
+ This also gives it more active frames (6-7, 11-12, 16-17, 21-22, 26-27 → 6-7, 10-11, 14-15, 18-19, 22-23, 26-27, 30-31).
+ The looping hits keep opponents on the ground (15°/170° → 0°/180°), have different set knockback values (30/20 → 20/25), and lower hitlag and SDI multipliers (1× → 0.5×), allowing them to connect more reliably.
+ The final hit's hitbox is higher up (Y offset: 1.6 → 1.8), improving its range against onstage opponents but weakening it against opponents below the ledge.
+ Its animation has been reversed, with Peach spinning towards the screen rather than away from it.
+Aerial attacks
+ All aerials have less landing lag (11 frames → 7 (neutral), 22 → 13 (forward), 18 → 11 (back), 12 → 7 (up), 13 → 8 (down)).
+ The introduction of the 0.85× damage multiplier for short hopped aerials benefits Peach, as unlike the rest of the cast (besides her Echo Fighter, Daisy), she can do a full hop and still attack with her aerials at a low height thanks to her floating ability, effectively bypassing the damage multiplier.
+Forward aerial:
+ Forward aerial has gained a sourspot on Peach's arm that deals less damage (15% → 14%) and takes priority over the sweetspot, with both also dealing less knockback (45 base/84 scaling → 50 base/71/74 scaling), greatly hindering its KO potential.
+ It has a different angle (361° → 42°), making it slightly higher against grounded opponents, but slightly lower against aerial opponents.
+ It has a magic-like trail of red and turquoise sparkles emerging from Peach's crown.
+Back aerial:
+ Back aerial has hearts emerging from near Peach's rear.
+ The late hitbox is larger (5u → 6u), no longer being smaller than the clean hit, improving its range.
+Throws and other attacks
+Grabs:
+ All grabs have more ending lag (FAF 32 → 37 (standing), 40 → 45 (dash), 38 → 40 (pivot)).
+ Dash grab has more startup (frame 8 → 9).
+ Dash grab's grabbox does not extend as far (Z offset: 4-10.6 → 4-10.4), slightly reducing its range.
+ When Peach grabs an opponent, Toad appears to attack alongside her when she uses her pummel and throws.
+Pummel:
+ Peach has a new pummel, where Toad punches the opponent.
+ It deals more hitlag (4 frames → 14), but has less startup (frame 4 → 1) and much less ending lag (FAF 19 → 7), shortening its duration.
+ It deals less damage (2% → 1.3%).
+Forward throw:
+ Peach has a new forward throw; Peach prepares to slap the opponent, then Toad headbutts the opponent away, much to Peach's surprise.
+ It deals much more knockback to bystanders (12 base/0 scaling → 55/50) and launches them more horizontally (80° → 361°), allowing it to force them off the stage.
+Back throw:
+ Back throw has less knockback scaling (95 → 88), no longer KOing opponents until around 150% at the edge.
+Down throw:
+ Peach has a new down throw, where Toad headbutts the opponent onto the ground.
+ It has increased combo potential due to her faster jumpsquat and jump speed.
+Edge attack:
+ Edge attack deals more damage (7% → 9%).
+Special moves
+Toad:
+ Toad has less startup with a longer counter window (frames 10-34 → 8-34), and grants intangibility sooner (frame 11 → 8).
+ It hits up to six times, down from nine, but deals more damage per hit (2% → 3.5%), increasing its total output (18% → 21%), with knockback compensated on the last hit (15 base/300 scaling → 40/210).
+ It no longer grants slight vertical distance on its first midair use, instead merely stalling Peach in place, and subsequent uses cause her to start falling immediately rather than stall, worsening the move's edgeguarding and recovery abilities.
+ Its intangibility has a shorter duration (frames 11-14 → 8-10).
+ The last hit launches at a higher angle (361° → 45°).
+ The spores are individual projectiles rather than hitboxes attached to Peach.
+ As a result, Peach no longer takes any hitlag from the move, allowing it to transition faster and connect more reliably, despite each hit having a higher hitlag multiplier (0.4× → 1×).
+ However, this greatly decreases its shieldstun.
+ Toad has a different animation. Peach ducks down covering her ears while Toad angrily appears in front of her. If Toad successfully counters an attack, Peach winces in shock instead of crouching.
+Peach Bomber:
+ Peach Bomber has less startup (frame 14 (grounded), frame 20 (aerial) → 13 (both)) and ending lag (FAF 65 → 63 (grounded), 95 → 88 (aerial)).
+ It deals more damage (10% → 12%) and has more knockback scaling (69 → 73), greatly improving its KO potential.
+ Peach can control her drift much earlier after a missed aerial Peach Bomber.
+ It has more ending lag if it connects (FAF 21 → 25).
+Peach Parasol:
+ Peach Parasol has less landing lag if the parasol is open (41 frames → 26).
+ The looping hits use weight-independent knockback, with the last one also having a different autolink angle (366° → 368°), and all of them having different set knockback values (180/160 (hit 1), 90 (hit 2-5) → 160/130 (hit 1), 160/80/70 (hits 2-4), 80/70 (hit 5)), allowing them to connect more reliably.
+ Due to rage being changed to not affect set knockback, and the first hit's lower values, it can no longer one-hit KO opponents, removing Peach's early KO setups.
+ The open parasol during Peach's descent deals less damage (3% → 2%) and significantly less knockback (90 base/100 scaling → 65/15), making a single hit much less safe.
+ The open parasol no longer deals any hitlag, and has a faster rehit rate (30 → 18), which combined with the previous change allows Peach to more effectively hit opponents multiple times with it, much like in Melee.
+Vegetable:
+ Vegetable has less ending lag (FAF 43 → 40).
+ Peach's item throw has less ending lag (FAF 27 → 25), allowing for easier followups.
+ Turnips have less base knockback (30 → 25), but more knockback scaling (35 → 45) improving weaker turnips' combo potential and stronger turnips' KO potential.
+ Upon hitting the ground, turnips bounce off it before vanishing, although they still lose their hitbox and cannot be grabbed upon doing so.
+Peach Blossom:
+ Peach Blossom has more knockback scaling (120/90/60 (clean), 100/80/60 (late) → 200/130/100), putting opponents to sleep for longer as a result.
+Update history
+Most likely as a result of her dominating performances in the competitive scene of Ultimate, Peach has been nerfed overall by patch updates. In patch 1.1.0, her dash attack's knockback scaling has been reduced, hindering its effectiveness as a fast KO option. As of patch 3.0.0, her Toad can no longer be used to stall indefinitely in the air, now only stalling at its first use, and her Vegetables deal less shield damage, hindering the projectiles' shield pressure capabilities.
+Patch 3.1.0 has arguably nerfed her harder than in any other patch update as of now: Both back throw and forward aerial deal less knockback, further weakening what was considered to be her more effective KOing options, Peach Bomber has more endlag when connected, hindering its safety against shields, and Vegetable has more endlag, leaving Peach more vulnerable to enemy attacks when plucking turnips. Moreover, the removal of held item attacks makes her options when holding a turnip less versatile.
+Peach has received a few buffs, however. Thanks to its changes in 2.0.0, 3.1.0, and 5.0.0, Peach Parasol connects more reliably against opponents, patch 3.1.0 allows jab to connect more efficiently, and forward smash's golf club swing deals more knockback, improving its KO potential.  
+ 1.1.0
+
+ Dash attack has reduced knockback scaling (140 → 130).
+ 2.0.0
+
+ Peach Parasol's multi hits have reduced knockback.
+ This makes it less likely for the move to KO at 0%.
+ Consecutive hits will connect better in some scenarios.
+ It is now easier to grab ledges with Peach Parasol.
+ Peach Blossom's camera has been adjusted. The borders will now always display correctly in scrolling stages.
+ 3.0.0
+
+ Toad no longer stalls continuously in the air after the first use.
+ The launch angles of Peach Parasol's multihits have been adjusted, preventing scenarios where the opponent would be launched at a great distance when hit from the ledge.
+ Vegetable deals less shield damage.
+ Peach Blossom has a slightly reduced sleep time period (clean: 260/200/160 (scaling) → 230/130/100, late: 210/170/140 (scaling) → 200/130/100).
+ The animations for Peach's ledge attack and swinging animation have been adjusted.
+ 3.1.0
+
+ Peach's dress physics were adjusted. It is now less likely for her animations to show visible seams or artifacts.
+ Neutral attack 1 connects into neutral attack 2 more reliably.
+ Forward smash has more knockback scaling when using the golf club (61/63 → 65/68).
+ Forward aerial has less knockback scaling (78 (clean)/76 (sourspot) → 74/71).
+ Back throw has less knockback scaling (95 → 88),  no longer KOing at reasonable percents.
+ Peach Bomber has more ending lag if it connects (FAF 19 → 25), though the period when the drift starts remains unchanged.
+ Peach Parasol's hits connect more reliably.
+ Vegetable has more ending lag (FAF 37 → 40).
+ 4.0.0
+
+ Walking, initial dash, initial dash turnaround and running animations have been adjusted to prevent her dress from clipping.
+ Toad's counterattack connects more easily when blocking an attack from behind.
+ Peach Parasol's late loop hits no longer have weight independent knockback, no longer launching opponents at an unusually high speed if the move fails to connect.
+ A rare bug with Peach Parasol when self-destructing has been created where the hitboxes of the move would be misplaced as well as respawning in a shadow form.
+ 5.0.0
+
+ Peach Parasol's linking hits connect more reliably.
+ 8.0.0
+
+ Pummel has a larger hitbox (4.5u → 5.5u) that is placed further horizontally (Z offset: 5.8u → 6.8u), allowing it to connect more consistently.
+Moveset
+Peach can float for 2.5 seconds.
+For a gallery of Peach's hitboxes, see here.
+Note: All numbers are listed as base damage, without the 1v1 multiplier.
+
+
+
+
+ 
+Name
+Damage
+Description
+
+
+Neutral attack
+
+ 
+2%
+Slaps the enemy twice with her leading arm: the first being an inward forehand slap, and the second being an outward backhand slap. The first hit can lock. The move is similar to her Super Slap attack in Super Mario RPG: Legend of the Seven Stars.
+
+
+3%
+
+
+
+
+
+
+Forward tilt
+
+ 
+7% (early, clean leg), 8% (clean foot), 6% (late)
+Kicks forward 180 degrees from low to high. Has good range for a forward tilt, and unusually for an attack of its type, launches opponents vertically, allowing it to perform air combos and juggles.
+
+
+
+
+
+
+Up tilt
+
+ 
+10% (blast), 8% (arm)
+Extends her arm upward, creating a discharge of pink magic in the form of a heart. May be based on her initial appearance in Melee's intro cutscene.
+
+
+Down tilt
+
+ 
+7%
+A low sweep kick. This move meteor smashes grounded opponents. It has very good combo potential at low to mid percents, most infamously leading into multiple fast-fallen neutral aerials performed from ground-height floats at lower percents, though many other follow-ups are possible instead.
+
+
+
+
+Dash attack
+
+ 
+4% (hit 1), 6% (hit 2)
+Creating magical sparks in her hands, Peach strikes with both arms extended forward, then quickly spreads her arms out. A relatively quick dash attack with good range that can serve as a situational KO move at higher percents.
+
+
+Forward smash
+
+ 
+18% (frying pan), 15% (golf club), 13.5% (tennis racket)
+Strikes with a bludgeon, depending on the angle of the attack: angling it upward uses a frying pan from Super Mario RPG: Legend of the Seven Stars, angling it downward uses the tennis racket from the Mario Tennis games, and no angling uses the golf club from the Mario Golf games. Each weapon has different properties—the frying pan has more vertical knockback (and the most damage), the golf club has more diagonal knockback (and the most range), and the tennis racket has more horizontal knockback and is a strong semi-spike.
+
+
+
+
+Up smash
+
+Ribbon Dance
+12% (ribbon), 17% (heart)
+Raises her arm and twirls a pink ribbon. A heart appears at the tip of the ribbon, which is where the sweetspot is located. Her head and arm become intangible for the duration of the move (frames 14-20).
+
+
+Down smash
+
+ 
+2% (hits 1-6), 3% (hit 7)
+Peach does a clockwise spin on her left leg and utilizes the edge of her dress, slashing multiple times.
+
+
+Neutral aerial
+
+ 
+13% (clean), 6% (late arms), 5% (late body)
+Spins around at an angle with arms extended, dealing damage to her left and right sides. The late hit can lock. Peach's fastest aerial attack, coming out on frame 5, as well as the one with the lowest amount of landing lag. Its low base knockback, combined with its fast startup and low landing lag, make it an extremely effective combo tool, especially when combined with her floating ability and the clean hit's impressively high damage output for a neutral aerial. Despite this, the clean hit's damage output and knockback scaling is sufficient to allow for it to have decent horizontal KO potential at higher percents.
+
+
+Forward aerial
+
+ 
+15% (crown), 14% (arm)
+Peach grabs the crown off her head and strikes with it in a vertical arc with red and turquoise magic sparkles emerging from the crown. Has the slowest startup out of all her aerial attacks. However, it is also her strongest aerial if sweetspotted. Her arm possesses a sourspot that deals 1% less damage, and KOs much later.
+
+
+
+
+
+
+Back aerial
+
+ 
+12% (clean), 7% (late)
+Peach strikes behind her by thrusting her rear. She creates a heart, although it is aesthetic, and possesses no hitbox. At low percentages, even the clean hit can lock.
+
+
+Up aerial
+
+ 
+4% (hit 1), 6% (hit 2)
+Swipes above her head with her arms from left to right, creating two magic rainbow trails. A decent juggling tool, especially given the move's disjoint and power. The first hit can also be used to drag down aerial opponents, particularly after a down aerial done from a float at short hop height at lower percents. When low floating, only the second hit will hit medium to large opponents, while small characters avoid it entirely.
+
+
+Down aerial
+
+ 
+2% (hits 1-3), 5% (hit 4)
+Rapidly kicks straight downwards four times. Depending on how the last hit lands, may launch opponents behind her. Has incredibly low landing lag for a down aerial, and is a decent combo starter at low to mid percents if performed from a float at short hop height.
+
+
+
+
+
+
+Grab
+
+ 
+—
+Reaches out with her arm. An average grab, though Toad appears when Peach has grabbed an opponent.
+
+
+Pummel
+
+ 
+1.3%
+Toad punches the opponent.
+
+
+Forward throw
+
+ 
+2% (hit 1), 8% (throw)
+Toad leaps forward, headbutting the opponent away.
+
+
+Back throw
+
+ 
+2% (hit 1), 9% (throw)
+Places opponent behind her and bumps them away with her rear. Toad is present, mimicking Peach's rear thrust, but he does not contribute any damage. Peach's strongest throw, and the only one that can KO at reasonable percents.
+
+
+Up throw
+
+ 
+2% (hit 1), 6% (throw)
+Puts opponent above her, and strikes them upward. Toad leaps up with Peach, but he soes not hit the opponent.
+
+
+Down throw
+
+ 
+1% (hit 1), 7% (throw)
+After putting the opponent on the ground, Toad leaps up and headbutts them, sending them upward and behind Peach. Good for starting combos, as it can lead to her back aerial and forward tilt at low to mid percents.
+
+
+Floor attack (front)
+
+ 
+7%
+Swirls around in a similar fashion to Mario's down smash.
+
+
+Floor attack (back)
+
+ 
+7%
+Swings her legs around.
+
+
+Floor attack (trip)
+
+ 
+5%
+Two kicks to either side.
+
+
+Edge attack
+
+ 
+9%
+While getting up, swipes forward with a hand at ground level.
+
+
+Neutral special
+
+Toad
+3.5% (per hit)
+Peach covers her ears with a terrified expression and turns away as Toad appears in front of her, arms spread out. If hit, Toad will retaliate with a spray of spores, and Peach will wince. If attacked from behind, Peach and Toad switch places.
+
+
+Side special
+
+Peach Bomber
+12%
+Peach lunges her body forward to deliver a powerful bash with her rear. Upon impact, she rebounds away from the victim, allowing for hit-and-run tactics. Deals considerable shield damage. Smash-inputting the move has her travel further.
+
+
+Up special
+
+Peach Parasol
+3% (first hit), 1% (hits 2-5), 2% (last hit), 2% (open)
+Peach jumps upward and then opens her parasol, jabbing those above her in the process. It can then be used as a directional glide but can also be opened or closed at will.
+
+
+Down special
+
+Vegetable
+Varies
+Plucks a Super Mario Bros. 2 Vegetable from the ground. She can then throw it as a projectile item. Its face determines how much damage it will do; the rarer the expression, the stronger the turnip. Along with turnips, Peach can rarely pull out Mr. Saturns and Bob-ombs.
+
+
+Final Smash
+
+Peach Blossom
+30% (close), 20% (mid), 10% (far)
+Peach performs a dance, causing all of her enemies to fall asleep. The closer they are to her when she activates it, the more damage they will take and the longer they will slumber. Three giant peaches appear, healing 20%. This Final Smash fails to affect anyone outside the range of the screen borders.
+
+
+Vegetable Damage Data
+
+
+Face
+
+Damage
+
+Chance
+
+
+Grin
+5%
+60.14%
+
+
+Stare
+5%
+10.14%
+
+
+Closed Eyes
+5%
+8.62%
+
+
+Surprised
+5%
+5.17%
+
+
+Happy
+5%
+5.14%
+
+
+Wink
+10%
+6.89%
+
+
+Dot-Eyes
+16%
+1.72%
+
+
+Stitch-Face
+24%
+1.72%
+
+
+Mr. Saturn
+7~9%
+0.6%
+
+
+Bob-omb
+25~36%
+0.4%
+
+On-screen appearance
+Appears spinning out of a shower of hearts, then winks and poses with her parasol saying "Hi!".
+
+		
+			
+			
+Peach's on-screen appearance
+
+			
+		
+
+Taunts
+Up taunt: Faces the screen, and takes out and twirls her parasol. She says "Sweet!" as she does this.
+Side taunt: Dances once in a taunting manner as little music notes flutter around her, while singing "La la la la laaa laaa!" in a tune similar to "Ring Around the Rosie".
+Down taunt: Faces the screen, and winks and points with her index finger in a somewhat bent posture and says "Uh-huh!" A heart will also pop up by her head.
+
+		
+			
+			
+Peach's up taunt.
+
+			
+		
+		
+			
+			
+Peach's side taunt.
+
+			
+		
+		
+			
+			
+Peach's down taunt.
+
+			
+		
+
+Idle poses
+Looks over her shoulders and brushes something off her dress.
+Raises arms up and stretches.
+Adjusts her ring before raising her hand and looking at it. This idle animation only plays if Peach is currently facing right.
+Fiddles with her hair.
+
+		
+			
+			
+Peach's first idle pose
+
+			
+		
+		
+			
+			
+Peach's second idle pose
+
+			
+		
+		
+			
+			
+Peach's third idle pose
+
+			
+		
+		
+			
+			
+Peach's fourth idle pose
+
+			
+		
+
+Victory poses
+Left: While motioning from right to left, she leans on her parasol. She then raises it while doing a stationary twirl, and poses with it open while resting it on her shoulder. Throughout the motioning, she says "Aw, did I win?"
+Up: Twirls with her arms raised as hearts surround her. Afterwards, she poses with her right hand on her hip and her left hand up towards her chest while saying "This is fun!"
+Right: Waves while walking forward, blows a kiss (in the form of a pink heart), and says "Peachy!" Afterward, she rests her right arm across her waist, and waves with her left hand.
+  A flourished remix of the Course Clear Fanfare used in Super Mario Bros., slightly sped up.
+
+		
+			
+			
+			
+		
+		
+			
+			
+			
+		
+		
+			
+			
+			
+		
+
+In competitive play
+At the beginning of Ultimate's metagame, players immediately recognized the viability of Peach. They also noticed how she has incredibly improved from the last installment. Her combo game became possibly the best in the game, with her down tilt, aerials, Vegetable, forward tilt, and up tilt serving as devastating and powerful combo starters to lead into difficult and technical high damaging float cancel combos. Together with her echo fighter, Daisy, Peach has amassed results that are among the best, resulting in being a top-tier threat.
+Prior to patch 3.1.0., Peach was considered as a definite top-tier and even potentially the best character in the game. However, future patches have nerfed her. As a result, the nerfs did not hurt her in the long run. Peach still continues to find more success across the meta with strong tournament representation and results from Samsora, MuteAce, Meru, Kie, and LingLing. Peach is still considered as a top tier by a majority of players with some, such as MkLeo, Mew2King, and ZeRo, going as far to say she is the best character in the game.
+
+Notable players
+Any number following the Smasher name indicates placement on the Fall 2019 PGRU, which recognizes the official top 50 players in the world in Super Smash Bros. Ultimate from July 13th, 2019 to December 15th, 2019.
+
+Active
+ @pinkbombo91 - Placed 7th at Canada Cup 2019 and 13th at SKL: Prairie Pummel. Has a win over Locus with the character.
+ BlazingPasta - One of the best Peach players in the United States. Placed 1st at Smashadelphia Ultimate, 13th at Super Smash Con 2019, 17th at Glitch 6, and 25th at Suplex City Smash and MomoCon 2019. He has wins over VoiD, Mr.R, Leffen, as well as defeating The Great Gonzales twice.
+ Dia - The best Peach player in Belgium and among the best in Europe. Placed 9th at 4 Seasons Tournament: Winter 2020 and 17th at Stunfest 2019. Ranked 1st on the Belgium Power Rankings.
+ Excel_Zero - Placed 5th at Winter Clash 2019 and 7th at Winter Clash 2020.
+ Jack - Placed 17th at Tri-state Showdown: Fall 2019, 25th at Defend the North 2019, and 33rd at MomoCon 2019.
+ Kie - Tri-mains Peach with Palutena and Ice Climbers and is the best Peach player in Japan. Placed 7th at both Sumabato SP 2 and Sumabato SP 11, 9th at Maesuma TOP 1, 17th at Sumabato SP and EVO Japan 2020, 25th at Umebura Japan Major 2019. Taken sets from Kome, Masashi, and Yoshidora with Peach.
+ Leaf - The best Peach player in Mexico. Placed 7th at Smash Fest to the Sky and 17th at Smash Factor 8. Has wins over Nery, Cloudy, AlexDisC, and Hyuga.
+ LingLing - Placed 1st at Smashadelphia 2019, 5th at UltiMania, 9th at Overclocked Ultimate II, 13th at NYXL Pop-Up!, 17th at Collision 2019, Suplex City Smash, Pound 2019 and Smash at The Paramount, and 33rd at Frostbite 2019.
+ Meru - The best Peach player in Europe and one of the best in the world. Placed 2nd at Tech Republic IV, ICARUS V and The Ultimate Performance 3, 3rd at Ultimate WANTED 1 and 4th at Valhalla II and Stunfest 2019, and 9th at both Albion 4 and Syndicate 2019. Ranked 5th on the European Smash Rankings and has wins over Glutonny, Leon, Oryon, Jeda, Flow, Light, and Maeda.
+ Midnight - Co-mains Peach with Palutena and placed 1st at Replay FX Gaming Arena 2019 with solo Peach, 3rd at Steel City Showdown with both Palutena and Peach.
+ MuteAce - One of the best Peach players in the world. Placed 1st at DreamHack Dallas 2019, 5th at Smash Conference United, and 17th at both Frostbite 2019 and MomoCon 2019. Has taken sets off of players such as Zackray and ESAM.
+ Razo - One of the best Peach players in the United States. Placed 7th at Super Smashed Fest, 9th at DreamHack Anaheim 2020, 17th at 2GG: All In, 33rd at GENESIS 7. Has wins over Shuton, Ned, and Lui$.
+ RobinGG - Placed 2nd at Calyptus Cup Inkstrike and Calyptus Cup X: Purple Age, 9th at The Mang0 Kickoff, and 25th at Albion 4. He has defeated players such as Light, cyve, and Supahsemmie.
+ Samsora (#2) - The best Peach player in the world. Placed 1st at Shine 2019 and CEO Dreamland 2020, 2nd at both Super Smash Con 2019 and Smash Conference United, 3rd at GENESIS 6, 4th at both MomoCon 2019 and EVO 2019, 5th at Get On My Level 2019, and 7th at 2GG: Kongo Saga. Has wins over MkLeo, Nairo, Tweek, Marss, Dabuz, Light, Cosmos, VoiD, Salem, and Sinji.
+ TKM - One of the best Peach players in Japan. Placed 9th at Kurobra 19, 17th at Sumabato SP and 33rd at both Umebura SP 3 and Umebura Japan Major 2019. Has a win over MkLeo.
+ Zinoto - Co-mains Peach with Palutena. Placed 2nd at Frosty Faustings XII 2020, 3rd at both Combo Breaker 2019 and Ursa Minor 4, 9th at Heart of Battle, 13th at The Big House 9, 17th at Get On My Level 2019, and 33rd at GENESIS 7. Has wins over Cosmos, Prodigy, Aaron, and colinies.
+Inactive
+ Secretary - Known for his Peach secondary. Placed 9th at GENESIS 6. Has wins over Nairo and Ally. He is currently on-hiatus as a result of controversy.
+ Suinoko - Placed 33rd at EGS Cup 3 and took sets from Pichi and Lunamado before switching back to Young Link.
+Classic Mode: No Damsel in Distress
+  Peach's congratulations screen.
+Peach's opponents are villains in various universes that have all captured a certain damsel before.
+
+
+
+Round
+Opponent
+Stage
+Music
+Notes
+
+
+1
+Bowser Jr. 
+Mushroom Kingdom
+Delfino Plaza (Remix)
+
+
+
+2
+Ganondorf 
+Mushroomy Kingdom
+Dark World (for 3DS / Wii U)
+
+
+
+3
+Donkey Kong 
+75m (Battlefield form)
+Donkey Kong / Donkey Kong Jr. Medley
+
+
+
+4
+Koopalings 
+Mushroom Kingdom U
+Fortress Boss - Super Mario Bros. 3
+The Koopalings are fought in the order Mario faces them in New Super Mario Bros. U.
+
+
+5
+King K. Rool 
+Jungle Japes
+Gang-Plank Galleon
+
+
+
+6
+Bowser 
+Peach's Castle
+King Bowser - Super Mario Bros. 3
+If this route is played with two players, Bowser teams up with another Bowser (), referencing Super Mario Bros: The Lost Levels.
+
+
+Bonus Stage
+
+
+Final
+Master Hand
+Final Destination
+Master Hand (Less than 7.0 intensity)Master Hand / Crazy Hand (Intensity 7.0 or higher)
+On Intensity 7.0 or higher, Crazy Hand teams up with Master Hand.
+
+Note: All stages Peach travels to are either Mario or Donkey Kong stages.
+Credits roll after completing Classic Mode. Completing it as Peach has Slide accompany the credits.
+
+
+Role in World of Light
+  Finding Peach in World of Light
+Although Peach does not appear in the World of Light opening cutscene, she was vaporized and later imprisoned alongside the rest of the fighters (except Kirby) when Galeem unleashed his beams of light.
+Peach is in a desolate platform in the Molten Fortress sub-area where Giga Bowser is fought, a callback to her usual role as a damsel in distress. The player must enter the pipe and free the spirit of Aisya to activate the blue ! Switch in order to progress to Peach.
+
+
+Fighter Battle
+
+
+
+No.
+
+Image
+
+Name
+
+Type
+
+Power
+
+Stage
+
+Music
+
+
+13
+
+
+
+Peach
+
+ Grab
+
+7,500
+
+Mushroom Kingdom U
+
+Fortress Boss - Super Mario World
+
+
+
+Spirits
+Peach's Fighter Spirit can be obtained by completing Classic Mode. It is also available periodically for purchase in the shop for 500 coins. Unlocking Peach in World of Light allows the player to preview the first spirit below in the Spirit List under the name "???". As a Fighter Spirit, it cannot be used in Spirit Battles and is purely aesthetic. Each Fighter Spirit has an alternate version that replaces them with their artwork in Ultimate.
+Additionally, Peach makes an appearance in various Primary and Support Spirits.
+
+
+
+		
+			
+			
+5. Peach
+
+			
+		
+		
+			
+			
+27. Baby Peach
+
+			
+		
+		
+			
+			
+28. Cat Princess Peach
+
+			
+		
+		
+			
+			
+29. Peach (Wedding)
+
+			
+		
+		
+			
+			
+77. Plessie
+
+			
+		
+		
+			
+			
+91. Badwagon
+
+			
+		
+		
+			
+			
+99. Shadow Queen
+
+			
+		
+		
+			
+			
+1,425. Peach (Paper Mario: The Origami King)
+
+			
+		
+
+
+In Spirit battles
+As the main opponent
+
+
+
+Spirit
+
+Battle parameters
+
+Inspiration
+
+
+No.
+
+Image
+
+Name
+
+Series
+
+Enemy Fighter(s)
+
+Type
+
+Power
+
+Stage
+
+Rules
+
+Conditions
+
+Music
+
+Character
+
+
+29
+
+
+
+Peach (Wedding)
+
+Super Mario Series
+
+•Peach •Mario 
+
+
+
+9,900
+
+New Donk City Hall
+
+•Flowery
+
+•Defeat the main fighter to win•You constantly take minor damage•The enemy tends to avoid conflict
+
+Break Free (Lead The Way)
+
+
+
+
+44
+
+
+
+Pidgit
+
+Super Mario Series
+
+•Peach 
+
+
+
+3,600
+
+Mushroom Kingdom II
+
+N/A
+
+•The enemy starts the battle with a Rocket Belt•The enemy has increased jump power
+
+Ground Theme - Super Mario Bros. 2
+
+
+
+
+79
+
+
+
+Pauline
+
+Super Mario Series
+
+•Peach •Mario •Giant Donkey Kong 
+
+
+
+13,700
+
+75m (hazards off)
+
+•Jump Power ↓
+
+•Defeat the main fighter to win•You have reduced jump power•Reinforcements will appear during the battle
+
+Jump Up, Super Star!
+
+
+
+
+88
+
+
+
+Cheep Charger
+
+Mario Kart Series
+
+•Peach 
+
+
+
+1,900
+
+Mario Circuit
+
+N/A
+
+•The enemy favors grabs and throws•The enemy has increased move speed
+
+Mushroom Gorge - Mario Kart Wii
+
+Toad
+
+
+91
+
+
+
+Badwagon
+
+Mario Kart Series
+
+•Metal Peach 
+
+
+
+9,700
+
+Mario Circuit
+
+N/A
+
+•The enemy is metal
+
+Mario Circuit - Mario Kart 8
+
+Pink Gold Peach
+
+
+107
+
+
+
+Princess Shroob
+
+Mario & Luigi Series
+
+•Peach 
+
+
+
+3,800
+
+Princess Peach's Castle
+
+•Giant•Attack Power ↑
+
+•The enemy is giant when the enemy's at high damage•Stamina battle•The enemy has increased attack power when the enemy's at high damage
+
+The Grand Finale
+
+
+
+
+123
+
+
+
+Perry
+
+Super Mario Series
+
+•Peach 
+
+
+
+1,800
+
+Golden Plains (Battlefield form)
+
+N/A
+
+•The enemy's up special has increased power•The enemy favors up specials•The enemy falls slowly
+
+Ground Theme - Super Mario Bros. (Melee)
+
+Peach
+
+
+129
+
+
+
+Rabbid Peach
+
+Mario + Rabbids Kingdom Battle
+
+•Bunny Peach 
+
+
+
+4,500
+
+3D Land
+
+•Item: Super Scope
+
+•Timed battle•The enemy tends to avoid conflict•The enemy heals over time
+
+Arcade Bunny's Theme
+
+
+
+
+225
+
+
+
+Agitha
+
+The Legend of Zelda Series
+
+•Peach •Bayonetta 
+
+
+
+1,900
+
+Kongo Falls
+
+•Item: Beehive
+
+•Take your strongest team into this no-frills battle
+
+The Hidden Village
+
+
+
+
+561
+
+
+
+Magearna
+
+Pokémon Series
+
+•Metal Peach •Clear Mega Man  (×2)
+
+
+
+9,500
+
+Wily Castle (hazards off)
+
+N/A
+
+•Defeat the main fighter to win•Reinforcements will appear during the battle•The enemy is metal
+
+Battle! (Gladion)
+
+
+
+
+746
+
+
+
+Princess Shokora
+
+Wario Land Series
+
+•Peach •Mr. Game & Watch •Wario 
+
+
+
+2,900
+
+Mushroom Kingdom II
+
+•Item: Transforming Types
+
+•Defeat the main fighter to win•Timed battle•The enemy tends to avoid conflict
+
+Ruins - Wario Land: Shake It!
+
+
+
+
+842
+
+
+
+Joan
+
+Animal Crossing Series
+
+•Peach •Villager 
+
+
+
+3,800
+
+Town and City
+
+N/A
+
+•The enemy favors down specials
+
+Town Hall and Tom Nook's Store - Animal Crossing: Wild World
+
+
+
+
+1,033
+
+
+
+Annie
+
+Splatoon Series
+
+•Peach 
+
+
+
+3,600
+
+Moray Towers
+
+N/A
+
+•The enemy is easily distracted by items
+
+Kraken Up
+
+
+
+
+1,321
+
+
+
+Peachette
+
+Super Mario Series
+
+•Peach •Mii Brawler  (Super Mushroom Hat, Yellow Toad Outfit, High Voice Type 7)•Luigi •Mario 
+
+
+
+10,000
+
+Mushroom Kingdom U (hazards off)
+
+•Easy to Launch•Low Gravity
+
+•All fighters are easy to launch•Timed battle•Gravity is reduced
+
+Ground Theme - New Super Mario Bros. U
+
+
+
+
+1,425
+
+
+
+Peach (Paper Mario: The Origami King)
+
+Paper Mario Series
+
+•Peach 
+
+
+
+2,100
+
+Peach's Castle (Battlefield form)
+
+•Assist Trophy Enemies (Chain Chomp)•Item: Hammer
+
+•Hostile assist trophies will appear
+
+Paper Mario Medley
+
+
+
+As a minion
+
+
+
+Spirit
+
+Battle parameters
+
+Inspiration
+
+
+No.
+
+Image
+
+Name
+
+Series
+
+Enemy Fighter(s)
+
+Type
+
+Power
+
+Stage
+
+Rules
+
+Conditions
+
+Music
+
+Character
+
+
+47
+
+
+
+Wart
+
+Super Mario Series
+
+•King K. Rool •Peach 
+
+
+
+4,000
+
+Skyworld (Battlefield form)
+
+•Hazard: Slumber Floor
+
+•Defeat the main fighter to win•The floor is sleep-inducing
+
+Boss Theme - Super Mario Bros. 2
+
+Vegetables
+
+
+104
+
+
+
+Geno
+
+Super Mario RPG: Legend of the Seven Stars
+
+•Sheik •Peach •Kirby •Bowser •Mario 
+
+
+
+13,700
+
+Mario Galaxy (Battlefield form)
+
+N/A
+
+•Defeat the main fighter to win•Timed battle•The enemy's FS Meter charges quickly
+
+Rainbow Road Medley
+
+Peach
+
+
+118
+
+
+
+Wanda
+
+Super Mario Series
+
+•Tiny Palutena •Yoshi •Peach •Mario 
+
+
+
+1,500
+
+Green Greens (Battlefield form)
+
+N/A
+
+•Defeat the main fighter to win•Reinforcements will appear after an enemy is KO'd
+
+Mario Paint Medley
+
+Peach
+
+
+128
+
+
+
+MC Ballyhoo & Big Top
+
+Mario Party Series
+
+•Mario •Yoshi •Peach •Luigi 
+
+
+
+1,600
+
+Mario Circuit
+
+•Item Tidal Wave
+
+•Certain items will appear in large numbers after a little while
+
+Pandemonium
+
+Peach
+
+
+132
+
+
+
+Mario (Mario Tennis Aces)
+
+Mario Tennis Aces
+
+•Mario •Peach 
+
+
+
+8,800
+
+Wuhu Island(Swordplay Colosseum)
+
+•Assist Trophy Enemies (Color TV-Game 15)
+
+•Hostile assist trophies will appear•The enemy favors smash attacks
+
+Title Theme - Mario Tennis Aces
+
+Peach
+
+
+976
+
+
+
+Gangster, Lady, & Policeman
+
+Hogan's Alley
+
+•Wolf •Peach •Ike 
+
+
+
+1,700
+
+Tomodachi Life (Battlefield form)
+
+N/A
+
+•Defeat the main fighter to win
+
+Duck Hunt Medley
+
+Lady
+
+
+1,240
+
+
+
+Mio & Mayu Amakura
+
+Fatal Frame Series
+
+•Daisy •Peach 
+
+
+
+4,700
+
+Luigi's Mansion
+
+•Assist Trophy Enemies (Yuri Kozukata)
+
+•Timed battle•Hostile assist trophies will appear when the enemy's at high damage•The enemy tends to avoid conflict
+
+On the Hunt -Gloomy Manor Ver.- (Instrumental)
+
+Mayu Amakura
+
+
+1,300
+
+
+
+Dice Block
+
+Super Mario Series
+
+•Mario •Peach 
+
+
+
+1,900
+
+Princess Peach's Castle
+
+•Item Tidal Wave
+
+•Items will be pulled toward the enemy•Certain items will appear in large numbers
+
+Pandemonium
+
+Peach
+
+
+1,311
+
+
+
+Ann Takamaki
+
+Persona Series
+
+•Zero Suit Samus •Giant Peach 
+
+
+
+4,500
+
+Castle Siege (Throne Room)
+
+•Item: Fire Flower
+
+•Defeat the main fighter to win
+
+Last Surprise
+
+Carmen
+
+
+1,398
+
+
+
+Cuphead
+
+Cuphead
+
+•Mega Man •Giant Peach Team (×3) ()
+
+
+
+9,400
+
+New Pork City (Ω form)
+
+N/A
+
+•Defeat the main fighter to win•The enemy's ranged weapons have increased power•Stamina battle
+
+Final Results - Wii Party U
+
+The Root Pack
+
+
+•Mii Gunner  (Moveset 1312, Cuphead Hat, Cuphead Outfit)[1]•Giant Peach Team (×3) ()
+
+Floral Fury[1]
+
+
+1,410
+
+
+
+Daisy Mae
+
+Animal Crossing Series
+
+•Villager •Clear Peach 
+
+
+
+1,900
+
+Town and City
+
+N/A
+
+•Defeat the main fighter to win•The enemy favors down air attacks•The enemy is invisible
+
+Tour - Animal Crossing: New Leaf
+
+Turnips
+
+As an ally
+
+
+
+Spirit
+
+Battle parameters
+
+Inspiration
+
+
+No.
+
+Image
+
+Name
+
+Series
+
+Enemy Fighter(s)
+
+Type
+
+Power
+
+Stage
+
+Rules
+
+Conditions
+
+Music
+
+Character
+
+
+30
+
+
+
+Bowser (Wedding)
+
+Super Mario Series
+
+•Bowser •Ally: Peach 
+
+
+
+9,700
+
+New Donk City Hall
+
+N/A
+
+•You lose if your CPU ally is KO'd•The enemy favors dash attacks•The enemy has increased attack power
+
+Underground Moon Caverns
+
+Peach (Wedding)
+
+
+137
+
+
+
+Donkey Kong & Lady
+
+Donkey Kong Series
+
+•Giant Donkey Kong •Ally: Peach 
+
+
+
+13,500
+
+75m
+
+•Item Tidal Wave
+
+•You lose if your CPU ally is KO'd•The enemy has super armor and is hard to launch or make flinch•Timed stamina battle
+
+Donkey Kong / Donkey Kong Jr. Medley
+
+Pauline
+
+Alternate costumes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gallery
+
+		
+			
+			
+Peach's fighter card.
+
+			
+		
+		
+			
+			
+Peach's unlock notice.
+
+			
+		
+		
+			
+			
+Peach above Town and City.
+
+			
+		
+		
+			
+			
+Performing her up aerial attack on Green Greens.
+
+			
+		
+		
+			
+			
+Striking Sheik with Toad on Tortimer Island.
+
+			
+		
+		
+			
+			
+Idling on Mario Galaxy.
+
+			
+		
+		
+			
+			
+With Villager, plucking a Vegetable on Gaur Plain.
+
+			
+		
+		
+			
+			
+In her black-and-gold dress on Princess Peach's Castle.
+
+			
+		
+		
+			
+			
+Defended from Bowser by Toad on 3D Land.
+
+			
+		
+		
+			
+			
+Taunting in her white-and-red dress with Daisy on 3D Land.
+
+			
+		
+		
+			
+			
+In her white dress with Mario on Skyworld.
+
+			
+		
+		
+			
+			
+Peach, Diddy Kong, Mega Man, and Bayonetta fighting around Alolan Exeggutor on Pilotwings.
+
+			
+		
+		
+			
+			
+With Captain Falcon and Terry (as well as a small visible part of Ridley), all in their golden alternate colors, on New Donk City Hall.
+
+			
+		
+		
+			
+			
+With Mario and Bowser on Princess Peach's Castle.
+
+			
+		
+
+Character Showcase Video
+
+
+
+
+
+Trivia
+Super Smash Bros. Ultimate is the first Smash Bros. game where Peach holds an object, more specifically her parasol, in her character artwork.
+One of Peach's new victory poses resembles part of her Hole-in-One animation from Mario Golf: World Tour, albeit without the parasol.
+There are two inconsistencies on Peach's model that were not present in her model in Super Smash Bros. for Wii U:
+The red lace at the bottom of her dress will vanish when viewed from inside.[2]
+Looking around her neck will expose a gap.[3]
+Possibly due to Daisy being an Echo Fighter of her, this is the first Smash game since Melee to not include Peach's Daisy-based alternate costume.
+Peach has the most idle poses out of the entire cast, with four as opposed to the usual two. The only other exceptions to this are Jigglypuff and Byleth, who only have one.
+Peach is one of five characters whose unlocking battle in World of Light is not on either Final Destination or an Ω form. The other four are Daisy, King K. Rool, Toon Link, and Mii Gunner.
+Peach, Zelda, Falco, Olimar, Duck Hunt, and Dark Pit are the only fighters to appear as allies in spirit battles.
+Peach appeared in two spirit battles as an ally, unlike the listed fighters that appeared in one spirit battle.
+This is the first game where Peach's default head icon depicts her crown as its natural gold, as all previous depictions have matched her dress' pink. She shares this trait with Zero Suit Samus.
+Oddly, on the Sound Test, voice clips for Peach's "Aw, did I win?" victory pose are separated. The "Aw" is followed by her other victory quotes, which are followed by the "did I win?". This oddity was not present in Brawl or Smash 4.
+References
+
+
+^ a b This alternative occurs when the corresponding DLC has been purchased and downloaded.
+
+^ [1]
+
+^ [2]
+
+
+
+
+
+
+
+
+v • d • eFighters in Super Smash Bros. Ultimate
+
+
+Veterans
+
+Bayonetta · Bowser · Bowser Jr. · Captain Falcon · Cloud · Corrin · Dark Pit · Diddy Kong · Donkey Kong · Dr. Mario · Duck Hunt · Falco · Fox · Ganondorf · Greninja · Ice Climbers · Ike · Jigglypuff · King Dedede · Kirby · Link · Little Mac · Lucario · Lucas · Lucina · Luigi · Mario · Marth · Mega Man · Meta Knight · Mewtwo · Mii Fighter (Mii Brawler · Mii Gunner · Mii Swordfighter) · Mr. Game & Watch · Ness · Olimar · Pac-Man · Palutena · Peach · Pichu · Pikachu · Pit · Pokémon Trainer (Squirtle · Ivysaur · Charizard) · R.O.B. · Robin · Rosalina & Luma · Roy · Ryu · Samus · Sheik · Shulk · Snake · Sonic · Toon Link · Villager · Wario · Wii Fit Trainer · Wolf · Yoshi · Young Link · Zelda · Zero Suit Samus
+
+
+Newcomers
+
+Banjo & Kazooie · Byleth · Chrom · Daisy · Dark Samus · Hero · Incineroar · Inkling · Isabelle · Joker · Ken · King K. Rool · Min Min · Piranha Plant · Richter · Ridley · Simon · Steve · Terry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+v • d • e Mario universe
+
+
+Fighters
+
+Mario (SSB · SSBM · SSBB · SSB4 · SSBU) · Luigi (SSB · SSBM · SSBB · SSB4 · SSBU) · Peach (SSBM · SSBB · SSB4 · SSBU) · Bowser (SSBM · SSBB · SSB4 · SSBU) · Dr. Mario (SSBM · SSB4 · SSBU) · Rosalina & Luma (SSB4 · SSBU) · Bowser Jr. (SSB4 · SSBU) (Koopalings) · Daisy (SSBU) · Piranha Plant (SSBU)
+
+
+Assist Trophies
+
+Chain Chomp · Flies & Hand · Hammer Bro · Lakitu and Spinies · Thwomp · Waluigi
+
+
+Bosses
+
+Metal Mario and Luigi · Petey Piranha
+
+
+Stages
+
+Peach's Castle · Mushroom Kingdom (SSB) · Princess Peach's Castle · Rainbow Cruise · Mushroom Kingdom (SSBM) · Mushroom Kingdom II · Delfino Plaza · Mushroomy Kingdom · Figure-8 Circuit · Luigi's Mansion · Mario Bros. · 3D Land · Golden Plains · Rainbow Road · Paper Mario · Mario Galaxy · Mushroom Kingdom U · Mario Circuit (SSB4) · Super Mario Maker · New Donk City HallMushroom Kingdom (Adventure Mode)
+
+
+Items
+
+Bob-omb · Fire Flower · Green Shell · Red Shell · Super Star · Bullet Bill · Freezie · Hothead · Metal Box · Poison Mushroom · Super Mushroom · Banana Peel · Golden Hammer ·  Lightning Bolt · Boomerang · Fire Bar · POW Block · Spiny Shell · Super Leaf · Grass · Super Launch Star
+
+
+Enemies
+
+Banzai Bill · Bill Blaster · Bullet Bill · Flame Chomp · Goomba · Giant Goomba · Hammer Bro · Koopa Paratroopa · Koopa Troopa · Lakitu · Magikoopa · Shy Guy · Spike Top · Shellcreeper · Sidestepper
+
+
+Other
+
+Birdo · Boo · Cappy · F.L.U.D.D. · Geno · Ghosts · Kamek · Koopa Clown Car · Molten Fortress · Nabbit · Pauline · Pidgit · Shellcreeper · Shy Guy · Sidestepper · Toad · Warp Pipe
+
+
+Trophies, Stickers and Spirits
+
+Trophies (SSBM · SSBB · SSB4) · Stickers · Spirits
+
+
+Music
+
+Brawl (Mario Kart) · SSB4 · Ultimate (Mario Kart)
+
+
+Related universes
+
+Donkey Kong · Yoshi · Wario · Wrecking Crew
+
+
+
+
+
+
+
+
+
+
+begin = 18 end= -1
