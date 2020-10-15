@@ -1,0 +1,11 @@
+stages:
+  - lint
+
+lint:
+  stage: lint
+  script: eslint . --ext .js
+  cache:
+    key: "$CI_COMMIT_REF_NAME"
+    policy: pull
+    paths:
+      - build
