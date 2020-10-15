@@ -3,7 +3,9 @@ stages:
 
 lint:
   stage: lint
-  script: eslint . --ext .js
+  script:
+    - npm i eslint 
+    - node_modules/eslint/bin/eslint.js .
   cache:
     key: "$CI_COMMIT_REF_NAME"
     policy: pull
