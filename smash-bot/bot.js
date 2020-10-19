@@ -3,7 +3,13 @@
 
 const { ActivityHandler, MessageFactory } = require('botbuilder');
 
+/**
+ *  The bot object.
+ */
 class EchoBot extends ActivityHandler {
+    /**
+     *  Setup calls.
+     */
     constructor() {
         super();
         // See https://aka.ms/about-bot-activity-message to learn more about the message and other activity types.
