@@ -8,7 +8,7 @@
     "scripts": {
         "start": "node ./smash-bot/index.js",
         "watch": "nodemon ./smash-bot/index.js",
-        "lint": "eslint . --fix",
+        "lint": "eslint . ",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
