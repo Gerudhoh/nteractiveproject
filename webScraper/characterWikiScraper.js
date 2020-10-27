@@ -1,6 +1,6 @@
 const got = require('got');
 const cheerio = require('cheerio');
-const regexMap = require("./regexMap");
+const regexMap = require('./regexMap');
 
 const wiki = 'https://www.ssbwiki.com/';
 const game = '_(SSBU)';

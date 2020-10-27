@@ -7,5 +7,5 @@ regexesMap.set('In competitive play', {
 module.exports = {
   getRegexes: function() {
     return regexesMap;
-  }
-}
+  },
+};
