@@ -3,6 +3,9 @@
 
 const { ActivityHandler, MessageFactory } = require('botbuilder');
 
+// nteractive code:
+const characterInfo = require('./webScraper/characterWikiScraper');
+
 /**
  *  The bot object.
  */
@@ -14,10 +17,12 @@ class EchoBot extends ActivityHandler {
         super();
         // See https://aka.ms/about-bot-activity-message to learn more about the message and other activity types.
         this.onMessage(async (context, next) => {
-            const replyText = `Echo: ${ context.activity.text }`;
-            await context.sendActivity(MessageFactory.text(replyText, replyText));
-            // By calling next() you ensure that the next BotHandler is run.
-            await next();
+            console.log(`Echo: ${ context.activity.text }`);
+            characterInfo.scrapeWeb('Peach', 'In competitive play').then(function(replyText) {
+                await context.sendActivity(MessageFactory.text(replyText, replyText));
+                // By calling next() you ensure that the next BotHandler is run.
+                await next();
+            }
         });
 
         this.onMembersAdded(async (context, next) => {
