@@ -17,8 +17,15 @@ class EchoBot extends ActivityHandler {
         super();
         // See https://aka.ms/about-bot-activity-message to learn more about the message and other activity types.
         this.onMessage(async (context, next) => {
-            console.log(`Echo: ${ context.activity.text }`);
-	    const replyText = await characterInfo.scrapeWeb('Peach', 'In competitive play');
+            let replyText = "";
+            const input = context.activity.text.split(",");
+            if(input.length == 2){
+    	        replyText = await characterInfo.scrapeWeb(input[0], input[1]);
+            } 
+            else {
+                replyText = `Oops! I don't quite understand ${context.activity.text}.\n`;
+                replyText += "Be sure to ask me questions in the format Character Name, Information i.e. Peach, In competitive play";
+            }
             await context.sendActivity(MessageFactory.text(replyText, replyText));
             // By calling next() you ensure that the next BotHandler is run.
             await next();
@@ -26,7 +33,9 @@ class EchoBot extends ActivityHandler {
 
         this.onMembersAdded(async (context, next) => {
             const membersAdded = context.activity.membersAdded;
-            const welcomeText = 'Hello and welcome!';
+            let welcomeText = "Hello and welcome! I'm the Super Smash Bros Bot.\n";
+            welcomeText += "Ask me a question like this: \n";
+            welcomeText += "Character Name, Information  i.e. Peach, In competitive play";
             for (let cnt = 0; cnt < membersAdded.length; ++cnt) {
                 if (membersAdded[cnt].id !== context.activity.recipient.id) {
                     await context.sendActivity(MessageFactory.text(welcomeText, welcomeText));
