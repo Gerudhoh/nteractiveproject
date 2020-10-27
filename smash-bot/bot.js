@@ -5,7 +5,6 @@ const {ActivityHandler, MessageFactory} = require('botbuilder');
 
 // nteractive code:
 const characterInfo = require('./webScraper/characterWikiScraper');
-const regexMap = require('./webScraper/regexMap');
 
 /**
  *  The bot object.
@@ -21,8 +20,11 @@ class EchoBot extends ActivityHandler {
       let replyText = '';
       const input = context.activity.text.split(',');
       if (input.length == 2) {
-        const regexes = regexMap.getRegexes().get(input[1]);
-        replyText = await characterInfo.scrapeWeb(input[0], regexes);
+        try {
+          replyText = await characterInfo.scrapeWeb(input[0].trim(), input[1].trim());
+        } catch (error) {
+          replyText = `Oops! Something went wrong. Please try again :)`;
+        }
       } else {
         replyText = `Oops! I don't quite understand ${context.activity.text}.\n`;
         replyText += 'Be sure to ask me questions in the format:\n';
