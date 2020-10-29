@@ -1,11 +1,11 @@
 const regexesMap = new Map;
-regexesMap.set('In competitive play', {
+regexesMap.set('in competitive play', {
   startSection: new RegExp(/^In competitive play/gm),
   endSection: new RegExp(/^Notable players/gm),
 });
 
 module.exports = {
-  getRegexes: function() {
-    return regexesMap;
+  getRegexes: function(targetText) {
+    return regexesMap.get(targetText);
   },
 };
