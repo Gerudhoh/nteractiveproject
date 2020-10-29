@@ -22,7 +22,6 @@ class EchoBot extends ActivityHandler {
       if (input.length == 2) {
         try {
           replyText = await characterInfo.scrapeWeb(input[0].trim(), input[1].trim().toLowerCase());
-          title = replyText.split('\n');
         } catch (error) {
           replyText = `Oops! Something went wrong. Please try again :)`;
         }
