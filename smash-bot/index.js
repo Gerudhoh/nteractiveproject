@@ -2,7 +2,7 @@
 // Licensed under the MIT License.
 
 const path = require('path');
-
+const fs = require('fs');
 const dotenv = require('dotenv');
 // Import required bot configuration.
 const ENV_FILE = path.join(__dirname, '.env');
@@ -18,7 +18,13 @@ const {BotFrameworkAdapter} = require('botbuilder');
 const {EchoBot} = require('./bot');
 
 // Create HTTP server
-const server = restify.createServer();
+const httpsOptions = {
+  key: fs.readFileSync('/etc/letsencrypt/live/nteractive.socs.uoguelph.ca/privkey.pem'),
+  certificate: fs.readFileSync('/etc/letsencrypt/live/nteractive.socs.uoguelph.ca/fullchain.pem'),
+};
+
+const server = restify.createServer(httpsOptions);
+
 server.listen(process.env.port || process.env.PORT || 443, () => {
   console.log(`\n${ server.name } listening to ${ server.url }`);
   console.log('\nGet Bot Framework Emulator: https://aka.ms/botframework-emulator');
