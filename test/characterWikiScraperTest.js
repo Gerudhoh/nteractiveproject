@@ -3,6 +3,8 @@ const fs = require('fs');
 const characterWikiScraper = require('../smash-bot/webScraper/characterWikiScraper');
 
 const peachCompInfo = fs.readFileSync('./test/peachICP.txt', {encoding: 'utf8', flag: 'r'});
+const wiiFitFinalSmash = fs.readFileSync('./test/wiiFitFinalSmash.txt', {encoding: 'utf8', flag: 'r'});
+const captFalcMoveSet = fs.readFileSync('./test/CaptainFalconMoveSet.txt', {encoding: 'utf8', flag: 'r'});
 
 describe('Character Wiki Scraping Tests', function() {
   describe('Pull Competitive Information', function() {
@@ -10,6 +12,22 @@ describe('Character Wiki Scraping Tests', function() {
       characterWikiScraper.scrapeWeb('Peach', 'In competitive play')
           .then(function(competitiveInfo) {
             expect(competitiveInfo.trim()).to.equal(peachCompInfo);
+          });
+    });
+  });
+  describe('Pull Move Information', function() {
+    it('Pulls Wii Fit Trainer\'s Final Smash information', function() {
+      characterWikiScraper.scrapeWeb('Wii Fit Trainer', 'move:Final Smash')
+          .then(function(moveinfo) {
+            expect(moveinfo.trim()).to.equal(wiiFitFinalSmash);
+          });
+    });
+  });
+  describe('Pull Moveset', function() {
+    it('Pulls Captain Falcon\'s full moveset information', function() {
+      characterWikiScraper.scrapeWeb('Captain Falcon', 'moveset')
+          .then(function(moveinfo) {
+            expect(moveinfo.trim()).to.equal(wiiFitFinalSmash);
           });
     });
   });
