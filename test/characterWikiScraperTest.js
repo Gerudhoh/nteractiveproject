@@ -27,7 +27,7 @@ describe('Character Wiki Scraping Tests', function() {
     it('Pulls Captain Falcon\'s full moveset information', function() {
       characterWikiScraper.scrapeWeb('Captain Falcon', 'moveset')
           .then(function(moveinfo) {
-            expect(moveinfo.trim()).to.equal(wiiFitFinalSmash);
+            expect(moveinfo.trim()).to.equal(captFalcMoveSet);
           });
     });
   });

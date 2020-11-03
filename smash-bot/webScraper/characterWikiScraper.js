@@ -57,10 +57,9 @@ async function moveInfo(url, targetText) {
     const $ = cheerio.load(response.body); // Loads HTML from the url
 
     $('.mw-parser-output > .wikitable > tbody > tr').each((index, element) => {
-
       if ($(element).text().includes(moveName) && $($(element)['0'].parent).text().includes('Neutral attack')) { // finding table row that contains move name (and thus move info)
         move = $(element).text();
-        //console.log(move);
+        // console.log(move);
       }
     });
   }).catch((err) => {
