@@ -1,5 +1,5 @@
 const regexesMap = new Map;
-regexesMap.set('In competitive play', {
+regexesMap.set('in competitive play', {
   startSection: new RegExp(/^In competitive play/gm),
   endSection: new RegExp(/^Notable players/gm),
 });
