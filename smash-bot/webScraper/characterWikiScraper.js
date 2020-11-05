@@ -3,7 +3,7 @@ const cheerio = require('cheerio');
 const regexMap = require('./regexMap');
 const wiki = 'https://www.ssbwiki.com/';
 const game = '_(SSBU)';
-const moveTableMarker = 'Neutral Attack';
+const moveTableMarker = 'Neutral attack';
 
 
 const webScrapingFunctions = new Map();
@@ -53,12 +53,13 @@ async function genericScrape(url, targetText) {
 */
 async function moveInfo(url, targetText) {
   let move = '';
-  const moveName = targetText.split(':')[1];
+  const moveName = targetText.split(':')[1].trim();
   await got(url).then((response) => { // Scrape the webpage indicated at the url
     const $ = cheerio.load(response.body); // Loads HTML from the url
-
     $('.mw-parser-output > .wikitable > tbody > tr').each((index, element) => {
-      if ($(element).text().includes(moveName) && $($(element)['0'].parent).text().includes(moveTableMarker)) { // finding table row that contains move name (and thus move info)
+      const moveText = ($(element).text().toLowerCase()).trim();
+
+      if (moveText.includes((moveName.toLowerCase()).trim()) && $($(element)['0'].parent).text().includes(moveTableMarker)) {
         move = $(element).text();
       }
     });
@@ -82,7 +83,7 @@ async function moveSet(url, targetText) {
     const $ = cheerio.load(response.body);
 
     $('.mw-parser-output > .wikitable > tbody ').each((index, element) => { // Find the table of moves (table containing text "Neutral attack")
-      if ($(element).text().includes('Neutral attack')) {
+      if ($(element).text().includes(moveTableMarker)) {
         for (let i = 0; i < $($(element)['0'].children).length; i++) { // getting text for every row in moveset table
           if ($(element)['0'].children[i].type === 'tag' && $(element)['0'].children[i].name === 'tr') {
             const move =($($(element)['0'].children[i]).text()).split('\n'); // turn row text into array
