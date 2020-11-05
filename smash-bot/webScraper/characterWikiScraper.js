@@ -3,6 +3,7 @@ const cheerio = require('cheerio');
 const regexMap = require('./regexMap');
 const wiki = 'https://www.ssbwiki.com/';
 const game = '_(SSBU)';
+const moveTableMarker = 'Neutral Attack';
 
 
 const webScrapingFunctions = new Map();
@@ -57,7 +58,7 @@ async function moveInfo(url, targetText) {
     const $ = cheerio.load(response.body); // Loads HTML from the url
 
     $('.mw-parser-output > .wikitable > tbody > tr').each((index, element) => {
-      if ($(element).text().includes(moveName) && $($(element)['0'].parent).text().includes('Neutral attack')) { // finding table row that contains move name (and thus move info)
+      if ($(element).text().includes(moveName) && $($(element)['0'].parent).text().includes(moveTableMarker)) { // finding table row that contains move name (and thus move info)
         move = $(element).text();
         // console.log(move);
       }
