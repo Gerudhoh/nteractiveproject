@@ -60,7 +60,6 @@ async function moveInfo(url, targetText) {
     $('.mw-parser-output > .wikitable > tbody > tr').each((index, element) => {
       if ($(element).text().includes(moveName) && $($(element)['0'].parent).text().includes(moveTableMarker)) { // finding table row that contains move name (and thus move info)
         move = $(element).text();
-        // console.log(move);
       }
     });
   }).catch((err) => {
@@ -107,5 +106,6 @@ async function moveSet(url, targetText) {
   });
   return moveSet;
 }
+
 
 module.exports.scrapeWeb = scrapeWeb;
