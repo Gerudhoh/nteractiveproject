@@ -22,7 +22,6 @@ lint:
 
 test:
   stage: test
-  dependencies:
-    - lint
   script:
+    - npm install
     - npm run test
