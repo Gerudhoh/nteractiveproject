@@ -15,7 +15,16 @@ describe('Character Wiki Scraping Tests', function() {
           });
     });
   });
-  
+
+  describe('Pull Move Info', function() {
+    it('Pulls Wii Fit Trainer\'s final smash information', function() {
+      characterWikiScraper.scrapeWeb('Wii Fit Trainer', 'move:Final Smash')
+          .then(function(moveinfo) {
+            expect(moveinfo.trim()).to.equal(wiiFitFinalSmash);
+          });
+    });
+  });
+
   describe('Pull Moveset', function() {
     it('Pulls Captain Falcon\'s full moveset information', function() {
       characterWikiScraper.scrapeWeb('Captain Falcon', 'moveset')
