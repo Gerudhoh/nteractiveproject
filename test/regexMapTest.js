@@ -9,10 +9,4 @@ describe('RegexMap Regexes Tests', function() {
       expect(regexes.endSection.test('Notable players')).to.equal(true);
     });
   });
-
-  // describe("moveslist", function() {
-  //   it("Has the expected regex pairs", function() {
-  //    // todo
-  //   });
-  // });
 });
