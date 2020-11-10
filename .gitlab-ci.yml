@@ -2,10 +2,11 @@ image: node:latest
 
 cache:
   paths:
-  - node_modules/
+    - node_modules/
 
 stages:
   - lint
+  - test
 
 lint:
   stage: lint
@@ -14,7 +15,13 @@ lint:
     - npm run lint
   allow_failure: true
   cache:
-    key: "$CI_COMMIT_REF_NAME"
+    key: '$CI_COMMIT_REF_NAME'
     policy: pull
     paths:
       - build
+
+test:
+  stage: test
+  script:
+    - npm install
+    - npm run test
