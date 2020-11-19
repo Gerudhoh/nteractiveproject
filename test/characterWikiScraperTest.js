@@ -3,8 +3,12 @@ const fs = require('fs');
 const characterWikiScraper = require('../smash-bot/webScraper/characterWikiScraper');
 
 const peachCompInfo = fs.readFileSync('./test/peachICP.txt', {encoding: 'utf8', flag: 'r'});
-// const wiiFitFinalSmash = fs.readFileSync('./test/wiiFitFinalSmash.txt', {encoding: 'utf8', flag: 'r'});
+const wiiFitFinalSmash = fs.readFileSync('./test/wiiFitFinalSmash.txt', {encoding: 'utf8', flag: 'r'});
 const captFalcMoveSet = fs.readFileSync('./test/CaptainFalconMoveSet.txt', {encoding: 'utf8', flag: 'r'});
+const kirbyUpdate300 = fs.readFileSync('./test/Kirby300.txt', {encoding: 'utf8', flag: 'r'});
+const peachUpdates = fs.readFileSync('./test/PeachUpdatesGeneral.txt', {encoding: 'utf8', flag: 'r'});
+const noVersion = 'Oops! That update version is nonexistent for this character!';
+const wrongUpdForm = 'Oops! Please only look for update versions in form: \'#.#.#\'';
 
 describe('Character Wiki Scraping Tests', function() {
   describe('Pull Competitive Information', function() {
@@ -30,6 +34,40 @@ describe('Character Wiki Scraping Tests', function() {
       characterWikiScraper.scrapeWeb('Captain Falcon', 'moveset')
           .then(function(moveinfo) {
             expect(moveinfo.trim()).to.equal(captFalcMoveSet);
+          });
+    });
+  });
+
+  describe('General Updates', function() {
+    it('Peach\'s general past update information', function() {
+      characterWikiScraper.scrapeWeb('Peach', 'updates')
+          .then(function(moveinfo) {
+            expect(moveinfo.trim()).to.equal(peachUpdates);
+          });
+    });
+  });
+  describe('Specific Update Version', function() {
+    it('Kirby\'s update information for version 3.0.0', function() {
+      characterWikiScraper.scrapeWeb('Kirby', 'update:3.0.0')
+          .then(function(moveinfo) {
+            expect(moveinfo.trim()).to.equal(kirbyUpdate300);
+          });
+    });
+  });
+
+  describe('Nonexistent update', function() {
+    it('Kirby\'s 3.5.0 update info', function() {
+      characterWikiScraper.scrapeWeb('Kirby', 'update:3.5.0')
+          .then(function(moveinfo) {
+            expect(moveinfo.trim()).to.equal(noVersion);
+          });
+    });
+  });
+  describe('Wrong update format', function() {
+    it('Kirby\'s 3..0 update info', function() {
+      characterWikiScraper.scrapeWeb('Kirby', 'update:3..0')
+          .then(function(moveinfo) {
+            expect(moveinfo.trim()).to.equal(wrongUpdForm);
           });
     });
   });

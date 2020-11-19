@@ -4,6 +4,12 @@ regexesMap.set('in competitive play', {
   endSection: new RegExp(/^Notable players/gm),
 });
 
+regexesMap.set('updates', {
+  // general info about updates
+  startSection: new RegExp(/^Update history/gm),
+  endSection: new RegExp(/^\s\d.\d.\d\n/gm),
+});
+
 module.exports = {
   getRegexes: function(targetText) {
     return regexesMap.get(targetText);
