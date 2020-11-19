@@ -24,7 +24,8 @@
         "express": "^4.17.1",
         "mocha": "^8.2.1",
         "request": "^2.88.2",
-        "restify": "~8.5.1"
+        "restify": "~8.5.1",
+        "server": "^1.0.31"
     },
     "devDependencies": {
         "eslint": "^7.11.0",
