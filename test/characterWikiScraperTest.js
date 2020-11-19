@@ -3,7 +3,7 @@ const fs = require('fs');
 const characterWikiScraper = require('../smash-bot/webScraper/characterWikiScraper');
 
 const peachCompInfo = fs.readFileSync('./test/peachICP.txt', {encoding: 'utf8', flag: 'r'});
-const wiiFitFinalSmash = fs.readFileSync('./test/wiiFitFinalSmash.txt', {encoding: 'utf8', flag: 'r'});
+const wiiFitFinalSmash = fs.readFileSync('./test/WiiFitFinalSmash.txt', {encoding: 'utf8', flag: 'r'});
 const captFalcMoveSet = fs.readFileSync('./test/CaptainFalconMoveSet.txt', {encoding: 'utf8', flag: 'r'});
 const kirbyUpdate300 = fs.readFileSync('./test/Kirby300.txt', {encoding: 'utf8', flag: 'r'});
 const peachUpdates = fs.readFileSync('./test/PeachUpdatesGeneral.txt', {encoding: 'utf8', flag: 'r'});
