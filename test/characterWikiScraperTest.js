@@ -37,7 +37,6 @@ describe('Character Wiki Scraping Tests', function() {
           });
     });
   });
-
   describe('General Updates', function() {
     it('Peach\'s general past update information', function() {
       characterWikiScraper.scrapeWeb('Peach', 'updates')
@@ -46,25 +45,20 @@ describe('Character Wiki Scraping Tests', function() {
           });
     });
   });
-  describe('Specific Update Version', function() {
-    it('Kirby\'s update information for version 3.0.0', function() {
+  describe('Specific Update Version for Kirby', function() {
+    it('Kirby\'s update information for version 3.0.0 - valid input', function() {
       characterWikiScraper.scrapeWeb('Kirby', 'update:3.0.0')
           .then(function(moveinfo) {
             expect(moveinfo.trim()).to.equal(kirbyUpdate300);
           });
     });
-  });
-
-  describe('Nonexistent update', function() {
-    it('Kirby\'s 3.5.0 update info', function() {
+    it('Kirby\'s 3.5.0 update info - nonexistent update', function() {
       characterWikiScraper.scrapeWeb('Kirby', 'update:3.5.0')
           .then(function(moveinfo) {
             expect(moveinfo.trim()).to.equal(noVersion);
           });
     });
-  });
-  describe('Wrong update format', function() {
-    it('Kirby\'s 3..0 update info', function() {
+    it('Kirby\'s 3..0 update info - wrong update form', function() {
       characterWikiScraper.scrapeWeb('Kirby', 'update:3..0')
           .then(function(moveinfo) {
             expect(moveinfo.trim()).to.equal(wrongUpdForm);
