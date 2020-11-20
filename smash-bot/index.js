@@ -4,6 +4,7 @@
 const path = require('path');
 const fs = require('fs');
 const dotenv = require('dotenv');
+
 // Import required bot configuration.
 const ENV_FILE = path.join(__dirname, '.env');
 dotenv.config({path: ENV_FILE});
@@ -30,6 +31,12 @@ server.listen(process.env.port || process.env.PORT || 443, () => {
   console.log('\nGet Bot Framework Emulator: https://aka.ms/botframework-emulator');
   console.log('\nTo talk to your bot, open the emulator select "Open Bot"');
 });
+
+// Sets the default homepage of the server
+server.get('/*', restify.plugins.serveStatic({
+  directory: './smash-bot',
+  default: 'index.html',
+}));
 
 // Create adapter.
 // See https://aka.ms/about-bot-adapter to learn more about how bots work.
