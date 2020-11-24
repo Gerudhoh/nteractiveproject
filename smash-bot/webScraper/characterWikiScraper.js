@@ -8,6 +8,8 @@ const moveTableMarker = 'Neutral attack';
 
 const webScrapingFunctions = new Map();
 webScrapingFunctions.set('in competitive play', {function: genericScrape});
+webScrapingFunctions.set('updates', {function: genericScrape});
+webScrapingFunctions.set('update', {function: updateScrape});
 webScrapingFunctions.set('move', {function: moveInfo});
 webScrapingFunctions.set('moveset', {function: moveSet});
 
@@ -35,6 +37,7 @@ async function genericScrape(url, targetText) {
   await got(url).then((response) => { // Scrape the webpage indicated at the url
     const $ = cheerio.load(response.body); // Loads HTML from the url
     const wikiPageText = $('.mw-parser-output').text(); // Parses the text content of a particular div, based on its css class
+    // console.log(wikiPageText);
     const regexes = regexMap.getRegexes(targetText.toLowerCase());
     const targetStartIndex = wikiPageText.search(regexes.startSection);
     const targetEndIndex = wikiPageText.search(regexes.endSection);
@@ -106,6 +109,33 @@ async function moveSet(url, targetText) {
     return 'Oops! there was an error :(';
   });
   return moveSet;
+}
+/**
+  * A method that scrapes the character's information for a specific update version from the wiki.
+  * @param {*} url The url of the webpage that we're scraping
+  * @param {*} targetText the update version we're scraping
+*/
+async function updateScrape(url, targetText) {
+  let result = '';
+  const version = targetText.split(':')[1].trim();
+  const versReg = new RegExp(version);
+  if (/^\d.\d.\d/.test(version) === false) {
+    return 'Oops! Please only look for update versions in form: \'#.#.#\'';
+  }
+  await got(url).then((response) => { // Scrape the webpage indicated at the url
+    const $ = cheerio.load(response.body); // Loads HTML from the url
+    const wikiPageText = $('.mw-parser-output').text(); // Parses the text content of a particular div, based on its css class
+    const targetStartIndex = wikiPageText.search(versReg);
+    const targetEndIndex = wikiPageText.search(/^\s\d.\d.\d\n/gm);
+    result = wikiPageText.substring(targetStartIndex, targetEndIndex);
+    if (wikiPageText.indexOf(version) === -1) {
+      result = 'Oops! That update version is nonexistent for this character!';
+    }
+  }).catch((err) => {
+    console.log(err);
+    return 'Oops! there was an error :(';
+  });
+  return result;
 }
 
 
