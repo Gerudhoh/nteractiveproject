@@ -6,13 +6,13 @@ const fs = require('fs');
  * @param {*} fd The csv file contents
  * @return {*} Array of csv data results
  */
-function processData (fd) {
+function processData(fd) {
   return new Promise((resolve, reject) => {
     const dataResults = [];
 
     fd.on('data', (data) => dataResults.push(data));
     fd.on('end', () => resolve(dataResults));
-    fd.on("error", error => reject(error));
+    fd.on('error', (error) => reject(error));
   });
 }
 
@@ -30,7 +30,7 @@ async function checkViability(targetCharacters) {
     }
   }
 
-  switch(result){
+  switch (result) {
     case '4':
       return ('Matchup greatly in favour for ' + character[0]);
     case '3':
