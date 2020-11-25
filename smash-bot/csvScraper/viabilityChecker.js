@@ -22,7 +22,7 @@ function processData(fd){
 async function checkViability(targetCharacters) {
     let result = '';
     let character = targetCharacters.split('-');
-    let dataResults = await processData(fs.createReadStream('../../smashUltimateComprehensiveMatchupChart.csv').pipe(csv({})));
+    let dataResults = await processData(fs.createReadStream('smashUltimateComprehensiveMatchupChart.csv').pipe(csv({})));
     for(i = 0; i < dataResults.length; i ++){
         if((dataResults[i][''] === character[0])){
             result = dataResults[i][character[1]];
