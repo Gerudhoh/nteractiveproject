@@ -3,7 +3,7 @@ const expect = require('chai').expect;
 const viabilityChecker = require('../smash-bot/csvScraper/viabilityChecker');
 
 const peachVSMarioViability = 'Matchup slightly in favour of Peach';
-const errorViability = 'Unknown matchup comparison between fake and character';
+const errorViability = 'Unknown character comparison between fake and character';
 
 describe('Viability Checker tests', function() {
   describe('Pull Competitive Information', function() {

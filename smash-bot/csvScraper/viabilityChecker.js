@@ -48,7 +48,7 @@ async function checkViability(targetCharacters) {
     case '-4':
       return ('Matchup greatly in favour for ' + character[1]);
     case '':
-      return ('Unknown matchup comparison between ' + character[0] + ' and ' + character[1]);
+      return ('Unknown character comparison between ' + character[0] + ' and ' + character[1]);
     default:
       return ('Even Matchup between ' + character[0] + ' and ' + character[1]);
   }
