@@ -28,7 +28,36 @@ async function checkViability(targetCharacters) {
             result = dataResults[i][character[1]];
         }
     }
-    return result;
+
+    switch(result){
+        case '4':
+            console.log('Matchup greatly in favour for ' + character[0]);
+            return('Matchup greatly in favour for ' + character[0]);
+        case '3':
+            console.log('Matchup highly in favour for ' + character[0]);
+            return('Matchup highly in favour for ' + character[0]);
+        case '2':
+            console.log('Matchup in favour for ' + character[0]);
+            return('Matchup in favour for ' + character[0]);
+        case '1':
+            console.log('Matchup slightly in favour for ' + character[0]);
+            return('Matchup slightly in favour for ' + character[0]);
+        case '-1':
+            console.log('Matchup slightly in favour for ' + character[1]);
+            return('Matchup slightly in favour for ' + character[1]);
+        case '-2':
+            console.log('Matchup in favour for ' + character[1]);
+            return('Matchup in favour for ' + character[1]);
+        case '-3':
+            console.log('Matchup highly in favour for ' + character[1]);
+            return('Matchup highly in favour for ' + character[1]);
+        case '-4':
+            console.log('Matchup greatly in favour for ' + character[1]);
+            return('Matchup greatly in favour for ' + character[1]);
+        default:
+            console.log('Matchup Even ');
+            return('Even Matchup between ' + character[0] + ' and ' + character[1]);
+    }
 }
 
 module.exports.checkViability = checkViability;
