@@ -31,7 +31,7 @@ class EchoBot extends ActivityHandler {
       } else {
         replyText = `Oops! I don't quite understand ${context.activity.text}.\n`;
         replyText += 'Be sure to ask me questions in the format:\n';
-        replyText += 'Command,Character Name i.e. Peach, In competitive play, or Kirby,update:3.0.0';
+        replyText += 'Character Name,Command i.e.: Peach, In competitive play, or Kirby,update:3.0.0';
       }
       await context.sendActivity(MessageFactory.text(replyText, replyText));
       // By calling next() you ensure that the next BotHandler is run.
@@ -42,7 +42,7 @@ class EchoBot extends ActivityHandler {
       const membersAdded = context.activity.membersAdded;
       let welcomeText = 'Hello and welcome! I\'m the Super Smash Bros Bot.\n';
       welcomeText += 'Ask me a question like this: \n';
-      welcomeText += 'Character Name, Information  i.e. Peach, In competitive play';
+      welcomeText += 'Character Name, Command  i.e. Peach, In competitive play';
       for (let cnt = 0; cnt < membersAdded.length; ++cnt) {
         if (membersAdded[cnt].id !== context.activity.recipient.id) {
           await context.sendActivity(MessageFactory.text(welcomeText, welcomeText));
