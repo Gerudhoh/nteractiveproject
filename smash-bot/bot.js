@@ -27,7 +27,7 @@ class EchoBot extends ActivityHandler {
           replyText = `Oops! Something went wrong. Please try again :)`;
         }
       } else if (input.length == 3) {
-        replyText = await checkViability.checkViability(input[1].trim() + '-' + input[2].trim());
+        replyText = await checkViability.checkViability(context.activity.text);
       } else {
         replyText = `Oops! I don't quite understand ${context.activity.text}.\n`;
         replyText += 'Be sure to ask me questions in the format:\n';

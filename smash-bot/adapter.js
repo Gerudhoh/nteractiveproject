@@ -12,4 +12,16 @@ module.exports = {
     };
     return adapterResults;
   },
+  adaptToViability: function(input) {
+    const command = input.split(',')[0].trim();
+    const character1 = input.split(',')[1].trim();
+    const character2 = input.split(',')[2].trim();
+
+    const adapterResults= {
+      command: command,
+      character1: character1,
+      character2: character2,
+    };
+    return adapterResults;
+  },
 };
