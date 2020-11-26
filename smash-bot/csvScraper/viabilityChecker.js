@@ -28,7 +28,7 @@ async function checkViability(input) {
   if (adapterResults.command !== 'matchup') {
     return ('Incorrect command for checking viability between two characters');
   }
-  //Getting data from csv
+  // Getting data from csv
   const dataResults = await processData(fs.createReadStream('smashUltimateComprehensiveMatchupChart.csv').pipe(csv({})));
   for (i = 0; i < dataResults.length; i ++) {
     if ((dataResults[i][''] === adapterResults.character1)) {
