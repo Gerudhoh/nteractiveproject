@@ -22,6 +22,7 @@ class EchoBot extends ActivityHandler {
       if (input.length == 2) {
         try {
           replyText = await characterInfo.scrapeWeb(input[0].trim().toLowerCase(), input[1].trim());
+          console.log("character: "+input[1].trim()+", command: "+input[0].trim().toLowerCase());
         } catch (error) {
           replyText = `Oops! Something went wrong. Please try again :)`;
         }
