@@ -21,7 +21,7 @@ class EchoBot extends ActivityHandler {
       const input = context.activity.text.split(',');
       if (input.length == 2) {
         try {
-          replyText = await characterInfo.scrapeWeb(input);
+          replyText = await characterInfo.scrapeWeb(context.activity.text);
         } catch (error) {
           replyText = `Oops! Something went wrong. Please try again :)`;
         }
