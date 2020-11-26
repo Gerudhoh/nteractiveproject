@@ -21,25 +21,24 @@ webScrapingFunctions.set('moveset', {function: moveSet});
 */
 async function scrapeWeb(input) {
   // Build URL
-  const inpInfo = adapter.adaptToWebScrape(input);
-  const url = wiki + inpInfo.get('character') + game;
-  const webScraper = webScrapingFunctions.get(inpInfo.get('command'));
-  const result = await webScraper.function(url, inpInfo);
+  const adapterResults = adapter.adaptToWebScrape(input);
+  const url = wiki + adapterResults.character + game;
+  const result = await (webScrapingFunctions.get(adapterResults.command)).function(url, adapterResults);
   return result;
 }
 /**
   * A generic method that scrapes a giant section of text from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} inpInfo the map of user input
+  * @param {*} adapterResults the map of user input
 */
-async function genericScrape(url, inpInfo) {
+async function genericScrape(url, adapterResults) {
   let result = '';
   await got(url).then((response) => { // Scrape the webpage indicated at the url
     const $ = cheerio.load(response.body); // Loads HTML from the url
     const wikiPageText = $('.mw-parser-output').text(); // Parses the text content of a particular div, based on its css class
 
     try {
-      const regexes = regexMap.getRegexes(inpInfo.get('command').toLowerCase());
+      const regexes = regexMap.getRegexes(adapterResults.command.toLowerCase());
       const targetStartIndex = wikiPageText.search(regexes.startSection);
       const targetEndIndex = wikiPageText.search(regexes.endSection);
       result = wikiPageText.substring(targetStartIndex, targetEndIndex);
@@ -56,11 +55,11 @@ async function genericScrape(url, inpInfo) {
 /**
   * A method that scrapes the information for a specific move from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} inpInfo the map of user input
+  * @param {*} adapterResults the map of user input
 */
-async function moveInfo(url, inpInfo) {
+async function moveInfo(url, adapterResults) {
   let move = '';
-  const moveName = inpInfo.get('extra');
+  const moveName = adapterResults.extra;
   await got(url).then((response) => { // Scrape the webpage indicated at the url
     const $ = cheerio.load(response.body); // Loads HTML from the url
     $('.mw-parser-output > .wikitable > tbody > tr').each((index, element) => {
@@ -80,9 +79,9 @@ async function moveInfo(url, inpInfo) {
 /**
   * A method that scrapes the information for a specific move from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} inpInfo the map of user input
+  * @param {*} adapterResults the map of user input
 */
-async function moveSet(url, inpInfo) {
+async function moveSet(url, adapterResults) {
   let moveSet = '\tMove \t\t Name \t\t Damage\n\t----------------------------------------------------\n';
   const moveTable = [];
 
@@ -117,11 +116,11 @@ async function moveSet(url, inpInfo) {
 /**
   * A method that scrapes the character's information for a specific update version from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} inpInfo the map of user input
+  * @param {*} adapterResults the map of user input
 */
-async function updateScrape(url, inpInfo) {
+async function updateScrape(url, adapterResults) {
   let result = '';
-  const version = inpInfo.get('extra');
+  const version = adapterResults.extra;
   const versReg = new RegExp(version);
   if (/^\d.\d.\d/.test(version) === false) {
     return 'Oops! Please only look for update versions in form: \'#.#.#\'';
@@ -141,4 +140,5 @@ async function updateScrape(url, inpInfo) {
   });
   return result;
 }
+
 module.exports.scrapeWeb = scrapeWeb;
