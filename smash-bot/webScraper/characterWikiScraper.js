@@ -7,7 +7,7 @@ const moveTableMarker = 'Neutral attack';
 
 
 const webScrapingFunctions = new Map();
-webScrapingFunctions.set('competitive', {function: genericScrape});
+webScrapingFunctions.set('in competitive play', {function: genericScrape});
 webScrapingFunctions.set('updates', {function: genericScrape});
 webScrapingFunctions.set('update', {function: updateScrape});
 webScrapingFunctions.set('move', {function: moveInfo});
@@ -16,14 +16,14 @@ webScrapingFunctions.set('moveset', {function: moveSet});
 
 /**
   *  Scrapes the smash wiki
-  * @param {String} character character whose information we want to know
-  * @param {String} targetText The section of the wiki we want to know
+  * @param {String} input the input from the user
 */
-async function scrapeWeb(targetText, character) {
+async function scrapeWeb(input) {
   // Build URL
-  const url = wiki + character + game;
-  const input = targetText.split(':');
-  const webScraper = webScrapingFunctions.get(input[0].toLowerCase());
+  const commandList = input.split(',');
+  const url = wiki + commandList[1].trim() + game;
+  const targetText = commandList[0].trim().toLowerCase().split(':');
+  const webScraper = webScrapingFunctions.get(targetText[0]);
   const result = await webScraper.function(url, targetText);
   return result;
 }
@@ -37,11 +37,15 @@ async function genericScrape(url, targetText) {
   await got(url).then((response) => { // Scrape the webpage indicated at the url
     const $ = cheerio.load(response.body); // Loads HTML from the url
     const wikiPageText = $('.mw-parser-output').text(); // Parses the text content of a particular div, based on its css class
-    // console.log(wikiPageText);
-    const regexes = regexMap.getRegexes(targetText.toLowerCase());
-    const targetStartIndex = wikiPageText.search(regexes.startSection);
-    const targetEndIndex = wikiPageText.search(regexes.endSection);
-    result = wikiPageText.substring(targetStartIndex, targetEndIndex);
+
+    try {
+      const regexes = regexMap.getRegexes(targetText[0].toLowerCase());
+      const targetStartIndex = wikiPageText.search(regexes.startSection);
+      const targetEndIndex = wikiPageText.search(regexes.endSection);
+      result = wikiPageText.substring(targetStartIndex, targetEndIndex);
+    } catch (err) {
+      return 'Oops! There was an error :(';
+    }
   }).catch((err) => {
     console.log(err);
     return 'Oops! there was an error :(';
@@ -56,7 +60,7 @@ async function genericScrape(url, targetText) {
 */
 async function moveInfo(url, targetText) {
   let move = '';
-  const moveName = targetText.split(':')[1].trim();
+  const moveName = targetText[1].trim();
   await got(url).then((response) => { // Scrape the webpage indicated at the url
     const $ = cheerio.load(response.body); // Loads HTML from the url
     $('.mw-parser-output > .wikitable > tbody > tr').each((index, element) => {
@@ -117,7 +121,7 @@ async function moveSet(url, targetText) {
 */
 async function updateScrape(url, targetText) {
   let result = '';
-  const version = targetText.split(':')[1].trim();
+  const version = targetText[1].trim();
   const versReg = new RegExp(version);
   if (/^\d.\d.\d/.test(version) === false) {
     return 'Oops! Please only look for update versions in form: \'#.#.#\'';
@@ -137,6 +141,5 @@ async function updateScrape(url, targetText) {
   });
   return result;
 }
-
 
 module.exports.scrapeWeb = scrapeWeb;
