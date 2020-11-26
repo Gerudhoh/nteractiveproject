@@ -31,7 +31,7 @@ class EchoBot extends ActivityHandler {
       } else {
         replyText = `Oops! I don't quite understand ${context.activity.text}.\n`;
         replyText += 'Be sure to ask me questions in the format:\n';
-        replyText += 'Command,Character Name i.e. Competitive, Peach or Update:3.0.0, Kirby';
+        replyText += 'Command,Character Name i.e. Peach, In competitive play, or Kirby,update:3.0.0';
       }
       await context.sendActivity(MessageFactory.text(replyText, replyText));
       // By calling next() you ensure that the next BotHandler is run.
