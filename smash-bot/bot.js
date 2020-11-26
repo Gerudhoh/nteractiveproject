@@ -5,6 +5,7 @@ const {ActivityHandler, MessageFactory} = require('botbuilder');
 
 // nteractive code:
 const characterInfo = require('./webScraper/characterWikiScraper');
+const checkViability = require('./csvScraper/viabilityChecker');
 
 /**
  *  The bot object.
@@ -25,6 +26,8 @@ class EchoBot extends ActivityHandler {
         } catch (error) {
           replyText = `Oops! Something went wrong. Please try again :)`;
         }
+      } else if (input.length == 3) {
+        replyText = await checkViability.checkViability(input[1].trim() + '-' + input[2].trim());
       } else {
         replyText = `Oops! I don't quite understand ${context.activity.text}.\n`;
         replyText += 'Be sure to ask me questions in the format:\n';
