@@ -1,6 +1,7 @@
 const got = require('got');
 const cheerio = require('cheerio');
 const regexMap = require('./regexMap');
+const adapter = require('../adapter');
 const wiki = 'https://www.ssbwiki.com/';
 const game = '_(SSBU)';
 const moveTableMarker = 'Neutral attack';
@@ -20,26 +21,25 @@ webScrapingFunctions.set('moveset', {function: moveSet});
 */
 async function scrapeWeb(input) {
   // Build URL
-  const commandList = input.split(',');
-  const url = wiki + commandList[1].trim() + game;
-  const targetText = commandList[0].trim().toLowerCase().split(':');
-  const webScraper = webScrapingFunctions.get(targetText[0]);
-  const result = await webScraper.function(url, targetText);
+  const inpInfo = adapter.adaptToWebScrape(input);
+  const url = wiki + inpInfo.get('character') + game;
+  const webScraper = webScrapingFunctions.get(inpInfo.get('command'));
+  const result = await webScraper.function(url, inpInfo);
   return result;
 }
 /**
   * A generic method that scrapes a giant section of text from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} targetText the section of the wiki we're scraping
+  * @param {*} inpInfo the map of user input
 */
-async function genericScrape(url, targetText) {
+async function genericScrape(url, inpInfo) {
   let result = '';
   await got(url).then((response) => { // Scrape the webpage indicated at the url
     const $ = cheerio.load(response.body); // Loads HTML from the url
     const wikiPageText = $('.mw-parser-output').text(); // Parses the text content of a particular div, based on its css class
 
     try {
-      const regexes = regexMap.getRegexes(targetText[0].toLowerCase());
+      const regexes = regexMap.getRegexes(inpInfo.get('command').toLowerCase());
       const targetStartIndex = wikiPageText.search(regexes.startSection);
       const targetEndIndex = wikiPageText.search(regexes.endSection);
       result = wikiPageText.substring(targetStartIndex, targetEndIndex);
@@ -56,11 +56,11 @@ async function genericScrape(url, targetText) {
 /**
   * A method that scrapes the information for a specific move from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} targetText the name of the move we're scraping
+  * @param {*} inpInfo the map of user input
 */
-async function moveInfo(url, targetText) {
+async function moveInfo(url, inpInfo) {
   let move = '';
-  const moveName = targetText[1].trim();
+  const moveName = inpInfo.get('extra');
   await got(url).then((response) => { // Scrape the webpage indicated at the url
     const $ = cheerio.load(response.body); // Loads HTML from the url
     $('.mw-parser-output > .wikitable > tbody > tr').each((index, element) => {
@@ -80,9 +80,9 @@ async function moveInfo(url, targetText) {
 /**
   * A method that scrapes the information for a specific move from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} targetText the name of the move we're scraping
+  * @param {*} inpInfo the map of user input
 */
-async function moveSet(url, targetText) {
+async function moveSet(url, inpInfo) {
   let moveSet = '\tMove \t\t Name \t\t Damage\n\t----------------------------------------------------\n';
   const moveTable = [];
 
@@ -117,11 +117,11 @@ async function moveSet(url, targetText) {
 /**
   * A method that scrapes the character's information for a specific update version from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} targetText the update version we're scraping
+  * @param {*} inpInfo the map of user input
 */
-async function updateScrape(url, targetText) {
+async function updateScrape(url, inpInfo) {
   let result = '';
-  const version = targetText[1].trim();
+  const version = inpInfo.get('extra');
   const versReg = new RegExp(version);
   if (/^\d.\d.\d/.test(version) === false) {
     return 'Oops! Please only look for update versions in form: \'#.#.#\'';
@@ -141,5 +141,4 @@ async function updateScrape(url, targetText) {
   });
   return result;
 }
-
 module.exports.scrapeWeb = scrapeWeb;

@@ -9,4 +9,11 @@ describe('RegexMap Regexes Tests', function() {
       expect(regexes.endSection.test('Notable players')).to.equal(true);
     });
   });
+  describe('updates', function() {
+    it('Has the expected regexes', function() {
+      const regexes = regexMap.getRegexes('updates');
+      expect(regexes.startSection.test('Update history')).to.equal(true);
+      expect(regexes.endSection.test(' 0.0.0\n')).to.equal(true);
+    });
+  });
 });
