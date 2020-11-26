@@ -7,7 +7,7 @@ const moveTableMarker = 'Neutral attack';
 
 
 const webScrapingFunctions = new Map();
-webScrapingFunctions.set('in competitive play', {function: genericScrape});
+webScrapingFunctions.set('competitive', {function: genericScrape});
 webScrapingFunctions.set('updates', {function: genericScrape});
 webScrapingFunctions.set('update', {function: updateScrape});
 webScrapingFunctions.set('move', {function: moveInfo});
@@ -19,7 +19,7 @@ webScrapingFunctions.set('moveset', {function: moveSet});
   * @param {String} character character whose information we want to know
   * @param {String} targetText The section of the wiki we want to know
 */
-async function scrapeWeb(character, targetText) {
+async function scrapeWeb(targetText, character) {
   // Build URL
   const url = wiki + character + game;
   const input = targetText.split(':');

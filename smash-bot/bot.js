@@ -21,14 +21,14 @@ class EchoBot extends ActivityHandler {
       const input = context.activity.text.split(',');
       if (input.length == 2) {
         try {
-          replyText = await characterInfo.scrapeWeb(input[0].trim(), input[1].trim().toLowerCase());
+          replyText = await characterInfo.scrapeWeb(input[0].trim().toLowerCase(), input[1].trim());
         } catch (error) {
           replyText = `Oops! Something went wrong. Please try again :)`;
         }
       } else {
         replyText = `Oops! I don't quite understand ${context.activity.text}.\n`;
         replyText += 'Be sure to ask me questions in the format:\n';
-        replyText += 'Character Name, Information i.e. Peach, In competitive play';
+        replyText += 'Character Name, Information i.e. Competitive, Peach';
       }
       await context.sendActivity(MessageFactory.text(replyText, replyText));
       // By calling next() you ensure that the next BotHandler is run.
