@@ -2,8 +2,8 @@
 
 module.exports = {
   adaptToWebScrape: function(input) {
-    const character = input.split(',')[0].trim();
-    const command = input.split(',')[1].trim().toLowerCase();
+    const command = input.split(',')[0].trim().toLowerCase();
+    const character = input.split(',')[1].trim();
 
     const adapterResults= {
       command: command.split(':')[0],
