@@ -1,6 +1,7 @@
 const got = require('got');
 const cheerio = require('cheerio');
 const regexMap = require('./regexMap');
+const adapter = require('../adapter');
 const wiki = 'https://www.ssbwiki.com/';
 const game = '_(SSBU)';
 const moveTableMarker = 'Neutral attack';
@@ -16,32 +17,34 @@ webScrapingFunctions.set('moveset', {function: moveSet});
 
 /**
   *  Scrapes the smash wiki
-  * @param {String} character character whose information we want to know
-  * @param {String} targetText The section of the wiki we want to know
+  * @param {String} input the input from the user
 */
-async function scrapeWeb(character, targetText) {
+async function scrapeWeb(input) {
   // Build URL
-  const url = wiki + character + game;
-  const input = targetText.split(':');
-  const webScraper = webScrapingFunctions.get(input[0].toLowerCase());
-  const result = await webScraper.function(url, targetText);
+  const adapterResults = adapter.adaptToWebScrape(input);
+  const url = wiki + adapterResults.character + game;
+  const result = await (webScrapingFunctions.get(adapterResults.command)).function(url, adapterResults);
   return result;
 }
 /**
   * A generic method that scrapes a giant section of text from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} targetText the section of the wiki we're scraping
+  * @param {*} adapterResults the map of user input
 */
-async function genericScrape(url, targetText) {
+async function genericScrape(url, adapterResults) {
   let result = '';
   await got(url).then((response) => { // Scrape the webpage indicated at the url
     const $ = cheerio.load(response.body); // Loads HTML from the url
     const wikiPageText = $('.mw-parser-output').text(); // Parses the text content of a particular div, based on its css class
-    // console.log(wikiPageText);
-    const regexes = regexMap.getRegexes(targetText.toLowerCase());
-    const targetStartIndex = wikiPageText.search(regexes.startSection);
-    const targetEndIndex = wikiPageText.search(regexes.endSection);
-    result = wikiPageText.substring(targetStartIndex, targetEndIndex);
+
+    try {
+      const regexes = regexMap.getRegexes(adapterResults.command.toLowerCase());
+      const targetStartIndex = wikiPageText.search(regexes.startSection);
+      const targetEndIndex = wikiPageText.search(regexes.endSection);
+      result = wikiPageText.substring(targetStartIndex, targetEndIndex);
+    } catch (err) {
+      return 'Oops! There was an error :(';
+    }
   }).catch((err) => {
     console.log(err);
     return 'Oops! there was an error :(';
@@ -52,11 +55,11 @@ async function genericScrape(url, targetText) {
 /**
   * A method that scrapes the information for a specific move from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} targetText the name of the move we're scraping
+  * @param {*} adapterResults the map of user input
 */
-async function moveInfo(url, targetText) {
+async function moveInfo(url, adapterResults) {
   let move = '';
-  const moveName = targetText.split(':')[1].trim();
+  const moveName = adapterResults.extra;
   await got(url).then((response) => { // Scrape the webpage indicated at the url
     const $ = cheerio.load(response.body); // Loads HTML from the url
     $('.mw-parser-output > .wikitable > tbody > tr').each((index, element) => {
@@ -76,9 +79,9 @@ async function moveInfo(url, targetText) {
 /**
   * A method that scrapes the information for a specific move from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} targetText the name of the move we're scraping
+  * @param {*} adapterResults the map of user input
 */
-async function moveSet(url, targetText) {
+async function moveSet(url, adapterResults) {
   let moveSet = '\tMove \t\t Name \t\t Damage\n\t----------------------------------------------------\n';
   const moveTable = [];
 
@@ -113,11 +116,11 @@ async function moveSet(url, targetText) {
 /**
   * A method that scrapes the character's information for a specific update version from the wiki.
   * @param {*} url The url of the webpage that we're scraping
-  * @param {*} targetText the update version we're scraping
+  * @param {*} adapterResults the map of user input
 */
-async function updateScrape(url, targetText) {
+async function updateScrape(url, adapterResults) {
   let result = '';
-  const version = targetText.split(':')[1].trim();
+  const version = adapterResults.extra;
   const versReg = new RegExp(version);
   if (/^\d.\d.\d/.test(version) === false) {
     return 'Oops! Please only look for update versions in form: \'#.#.#\'';
@@ -137,6 +140,5 @@ async function updateScrape(url, targetText) {
   });
   return result;
 }
-
 
 module.exports.scrapeWeb = scrapeWeb;

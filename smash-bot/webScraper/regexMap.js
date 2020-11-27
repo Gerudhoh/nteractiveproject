@@ -5,7 +5,6 @@ regexesMap.set('in competitive play', {
 });
 
 regexesMap.set('updates', {
-  // general info about updates
   startSection: new RegExp(/^Update history/gm),
   endSection: new RegExp(/^\s\d.\d.\d\n/gm),
 });

@@ -1,3 +1,4 @@
+const adapter = require('../adapter');
 const csv = require('csv-parser');
 const fs = require('fs');
 
@@ -18,39 +19,44 @@ function processData(fd) {
 
 /**
   * A method that scrapes character matchup information from the csv file
-  * @param {*} targetCharacters the characters we are finding
+  * @param {*} input the input from the user retrieved from the bot
+  * @return {*} Promise result of what the viability matchup results are
 */
-async function checkViability(targetCharacters) {
+async function checkViability(input) {
+  const adapterResults = adapter.adaptToViability(input);
   let result = '';
-  const character = targetCharacters.split('-');
+  if (adapterResults.command !== 'matchup') {
+    return ('Incorrect command for checking viability between two characters');
+  }
+  // Getting data from csv
   const dataResults = await processData(fs.createReadStream('smashUltimateComprehensiveMatchupChart.csv').pipe(csv({})));
   for (i = 0; i < dataResults.length; i ++) {
-    if ((dataResults[i][''] === character[0])) {
-      result = dataResults[i][character[1]];
+    if ((dataResults[i][''] === adapterResults.character1)) {
+      result = dataResults[i][adapterResults.character2];
     }
   }
 
   switch (result) {
     case '4':
-      return ('Matchup greatly in favour for ' + character[0]);
+      return ('Matchup greatly in favour for ' + adapterResults.character1);
     case '3':
-      return ('Matchup highly in favour for ' + character[0]);
+      return ('Matchup highly in favour for ' + adapterResults.character1);
     case '2':
-      return ('Matchup in favour for ' + character[0]);
+      return ('Matchup in favour for ' + adapterResults.character1);
     case '1':
-      return ('Matchup slightly in favour for ' + character[0]);
+      return ('Matchup slightly in favour for ' + adapterResults.character1);
     case '-1':
-      return ('Matchup slightly in favour for ' + character[1]);
+      return ('Matchup slightly in favour for ' + adapterResults.character2);
     case '-2':
-      return ('Matchup in favour for ' + character[1]);
+      return ('Matchup in favour for ' + adapterResults.character2);
     case '-3':
-      return ('Matchup highly in favour for ' + character[1]);
+      return ('Matchup highly in favour for ' + adapterResults.character2);
     case '-4':
-      return ('Matchup greatly in favour for ' + character[1]);
+      return ('Matchup greatly in favour for ' + adapterResults.character2);
     case '':
-      return ('Unknown character comparison between ' + character[0] + ' and ' + character[1]);
+      return ('Unknown character comparison between ' + adapterResults.character1 + ' and ' + adapterResults.character2);
     default:
-      return ('Even Matchup between ' + character[0] + ' and ' + character[1]);
+      return ('Even Matchup between ' + adapterResults.character1 + ' and ' + adapterResults.character2);
   }
 }
 

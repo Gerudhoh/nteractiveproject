@@ -22,16 +22,16 @@ class EchoBot extends ActivityHandler {
       const input = context.activity.text.split(',');
       if (input.length == 2) {
         try {
-          replyText = await characterInfo.scrapeWeb(input[0].trim(), input[1].trim().toLowerCase());
+          replyText = await characterInfo.scrapeWeb(context.activity.text);
         } catch (error) {
           replyText = `Oops! Something went wrong. Please try again :)`;
         }
       } else if (input.length == 3) {
-        replyText = await checkViability.checkViability(input[1].trim() + '-' + input[2].trim());
+        replyText = await checkViability.checkViability(context.activity.text);
       } else {
         replyText = `Oops! I don't quite understand ${context.activity.text}.\n`;
         replyText += 'Be sure to ask me questions in the format:\n';
-        replyText += 'Character Name, Information i.e. Peach, In competitive play';
+        replyText += 'Character Name,Command i.e.: Peach, In competitive play, or Kirby,update:3.0.0';
       }
       await context.sendActivity(MessageFactory.text(replyText, replyText));
       // By calling next() you ensure that the next BotHandler is run.
@@ -42,7 +42,7 @@ class EchoBot extends ActivityHandler {
       const membersAdded = context.activity.membersAdded;
       let welcomeText = 'Hello and welcome! I\'m the Super Smash Bros Bot.\n';
       welcomeText += 'Ask me a question like this: \n';
-      welcomeText += 'Character Name, Information  i.e. Peach, In competitive play';
+      welcomeText += 'Character Name, Command  i.e. Peach, In competitive play';
       for (let cnt = 0; cnt < membersAdded.length; ++cnt) {
         if (membersAdded[cnt].id !== context.activity.recipient.id) {
           await context.sendActivity(MessageFactory.text(welcomeText, welcomeText));
